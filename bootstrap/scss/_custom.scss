@@ -1,0 +1,107 @@
+.hero {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 145, 255, 0.4)), url('../img/background.jpg');
+    /*background-image: url('../img/background.png');*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom-left-radius: 85px;
+    padding-left: 4%;
+}
+.navbar {
+    padding: 0;
+}
+.navbar .navbar-brand {
+    padding-top: 0;
+    padding-top: 23px;
+    max-width: 220px;
+}
+.navbar img {
+    width: 100%;
+    padding-left: 3.5rem;
+}
+
+.navbar ul.navbar-nav {
+    margin-top: -30px;
+}
+
+.navbar ul.navbar-nav > li {
+    padding: 23px 13px 18px 12px;
+}
+.navbar ul.navbar-nav > li > a {
+    color: $white;
+    font-size: 1.25rem;
+    letter-spacing: 1.25px;
+}
+.navbar ul.navbar-nav > li.dropdown {
+    font-family: 'DINNextLTPro-Bold', sans-serif;
+    background-color: #2155c2;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.hero h1 {
+    font-family: 'DINNextLTPro-Light', sans-serif;
+    padding-top: 235px;
+    margin-bottom: 0;
+    font-size: 4.4rem;
+    line-height: 4.8rem;
+    color: $white;
+}
+.hero img {
+    width: 16%;
+    padding-bottom: 50px;
+}
+.hero h1 span {
+    font-family: 'DINNextLTPro-Regular', sans-serif;
+}
+
+.hero .input-group {
+    padding-bottom: 75px;
+    width: 330px;
+}
+
+.hero .input-group input[type=text] {
+    border-radius: 0;
+    border-top-left-radius: 15px;
+    padding: 34px 0 29px 25px;
+    letter-spacing: 1.4px;
+}
+
+.hero .input-group input[type=text]::placeholder {
+    color: #2155c2;
+}
+
+.hero .input-group-append .input-group-text {
+    border-radius: 0;
+    border: 0;
+    background-color: #ad110b;
+    font-size: 2rem;
+    color: $white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* 1 */
+@include media-breakpoint-up(xs) {
+   
+}
+
+/* 2 */
+@include media-breakpoint-up(sm) {
+    
+}
+
+/* 3 */
+@include media-breakpoint-up(md) {
+    
+}
+/* 4 */
+@include media-breakpoint-up(lg) {
+   
+}
+
+@include media-breakpoint-up(xl) {
+    
+    
+}
