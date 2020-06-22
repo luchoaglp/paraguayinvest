@@ -11807,7 +11807,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* line 19, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .navbar img {
   width: 100%;
-  padding-left: 3.5rem;
+  padding-left: 3em;
 }
 
 /* line 24, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
@@ -11838,7 +11838,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* line 43, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .hero h1 {
   font-family: 'DINNextLTPro-Light', sans-serif;
-  padding-top: 235px;
+  padding-top: 3.5em;
   margin-bottom: 0;
   font-size: 4.4rem;
   line-height: 4.8rem;
@@ -11848,7 +11848,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* line 51, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .hero img {
   width: 16%;
-  padding-bottom: 50px;
+  padding-bottom: 3.3em;
 }
 
 /* line 55, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
@@ -11858,7 +11858,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* line 59, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .hero .input-group {
-  padding-bottom: 75px;
+  padding-bottom: 5em;
   width: 330px;
 }
 
