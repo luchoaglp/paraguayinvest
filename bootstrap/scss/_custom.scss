@@ -22,6 +22,7 @@ html {
     background-size: cover;
     border-bottom-left-radius: 85px;
     padding-left: 4%;
+    margin-bottom: 1.9em;
 }
 .navbar {
     padding: 0;
@@ -52,7 +53,6 @@ html {
 }
 .navbar ul.navbar-nav > li > a.active {
     color: #8c1c1d;
-    /*border-bottom: 2px solid #8c1c1d;*/
 }
    
 .navbar ul.navbar-nav > li.dropdown {
@@ -72,7 +72,7 @@ html {
 }
 #home img {
     width: 16%;
-    padding-bottom: 3.3em;
+    padding-bottom: 3.2em;
 }
 #home h1 span {
     font-family: 'DINNextLTPro-Regular', sans-serif;
@@ -114,6 +114,14 @@ html {
 
 #business .col-md-6:nth-child(1) {
     padding-top: 12em;
+    padding-right: 0;
+    z-index: 999;
+}
+
+#business .col-md-6:nth-child(2) {
+    padding-top: 6.5em;
+    padding-left: 0;
+    padding-right: 9em;
 }
 
 #business .col-md-6:nth-child(1) h2 {
@@ -129,13 +137,12 @@ html {
 #business .business-box-1 {
     color: $white;
     background-color: #2155c2;
-    margin-left: 6.1em;
-    padding: 4em 3.1em 3em 3.1em;
+    margin-left: 6.5em;
+    padding: 4em 3em 3em 3.1em;
     -webkit-box-shadow: 0px 11px 7px -6px rgba(143,143,143,1);
     -moz-box-shadow: 0px 11px 7px -6px rgba(143,143,143,1);
     box-shadow: 0px 11px 7px -6px rgba(143,143,143,1);
 }
-
 #business .business-box-1 h6 {
     font-family: 'DINNextLTPro-Bold', sans-serif;
     line-height: 1.3rem;
@@ -144,6 +151,41 @@ html {
 #business .business-box-1 p {
     font-family: 'DINNextLTPro-Light', sans-serif;
     font-size: 1.3rem;
+}
+
+#business .business-box-2 {
+    border-top-left-radius: 80px;
+    -webkit-box-shadow: 6px 5px 19px 5px rgba(186,186,186,1);
+    -moz-box-shadow: 6px 5px 19px 5px rgba(186,186,186,1);
+    box-shadow: 6px 5px 19px 5px rgba(186,186,186,1);
+}
+
+#business .business-box-2 img {
+    border-top-left-radius: 70px;
+}
+
+#business .business-box-2 .business-box-2-list {
+    background-color: #e6e7e8;
+    padding: 2em 0 2em 5.2em;
+}
+
+#business .business-box-2 ul {
+    padding-left: 0;
+    list-style: none; /* Remove HTML bullets */
+}
+
+#business .business-box-2 ul li {
+    font-family: 'DINNextLTPro-Light', sans-serif;
+    font-size: 1.04rem;
+    color: #2155c2;
+    line-height: 2.4rem;
+}
+
+#business .business-box-2 ul li::before {
+    content: "•"; 
+    padding-right: 5px;
+    font-size: 1.7rem;
+    vertical-align: bottom;
 }
 
 /* 1 */
