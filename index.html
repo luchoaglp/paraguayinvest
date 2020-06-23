@@ -97,13 +97,22 @@
 <script>
 $(function() {
 
+  const $navbar = $('.navbar');
   const homeHeight = $('#home').height();
   const $navbarLinks = $('.pi-link');
-  const xOffset = 40;
+  const xOffset = 100;
   
   let xPos = $(window).scrollTop();
 
   setNavbarLinksColor = () => {
+
+    if(xPos > homeHeight - xOffset) {
+      $navbar.css('background-color', 'white');
+      $navbarLinks.css('color', '#2155c2');
+    } else {
+      $navbar.css('background-color', 'transparent');
+      $navbarLinks.css('color', 'white');
+    }
 
     for(link of $navbarLinks) {
       const $link = $(link);
@@ -112,11 +121,6 @@ $(function() {
         $link.css('color', '#8c1c1d');
       } else {
         $link.find('.pi-line-active').remove();
-        if(xPos > homeHeight - xOffset) {
-          $link.css('color', '#2155c2');
-        } else {
-          $link.css('color', 'white');
-        }
       }
     }
   }
