@@ -11781,9 +11781,14 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* line 1, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 6, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .hero {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 145, 255, 0.4)), url("../img/background.jpg");
-  /*background-image: url('../img/background.png');*/
+  /*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 145, 255, 0.4)), url('../img/background.jpg');*/
+  background-image: url("../img/background.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11792,42 +11797,47 @@ a.text-dark:hover, a.text-dark:focus {
   padding-left: 4%;
 }
 
-/* line 11, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 16, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .navbar {
   padding: 0;
 }
 
-/* line 14, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 19, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .navbar .navbar-brand {
   padding-top: 0;
   padding-top: 23px;
   max-width: 220px;
 }
 
-/* line 19, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 24, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .navbar img {
   width: 100%;
   padding-left: 3em;
 }
 
-/* line 24, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 29, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .navbar ul.navbar-nav {
   margin-top: -30px;
 }
 
-/* line 28, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 33, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .navbar ul.navbar-nav > li {
   padding: 23px 13px 18px 12px;
 }
 
-/* line 31, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 36, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .navbar ul.navbar-nav > li > a {
   color: #fff;
   font-size: 1.25rem;
   letter-spacing: 1.25px;
 }
 
-/* line 36, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 41, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+.navbar ul.navbar-nav > li > a.active {
+  color: #8c1c1d;
+}
+
+/* line 44, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .navbar ul.navbar-nav > li.dropdown {
   font-family: 'DINNextLTPro-Bold', sans-serif;
   background-color: #2155c2;
@@ -11835,7 +11845,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding-right: 5px;
 }
 
-/* line 43, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 51, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .hero h1 {
   font-family: 'DINNextLTPro-Light', sans-serif;
   padding-top: 3.5em;
@@ -11845,24 +11855,24 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
 }
 
-/* line 51, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 59, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .hero img {
   width: 16%;
   padding-bottom: 3.3em;
 }
 
-/* line 55, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 63, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .hero h1 span {
   font-family: 'DINNextLTPro-Regular', sans-serif;
 }
 
-/* line 59, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 67, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .hero .input-group {
   padding-bottom: 5em;
   width: 330px;
 }
 
-/* line 64, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 72, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .hero .input-group input[type=text] {
   border-radius: 0;
   border-top-left-radius: 15px;
@@ -11870,12 +11880,12 @@ a.text-dark:hover, a.text-dark:focus {
   letter-spacing: 1.4px;
 }
 
-/* line 71, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 79, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .hero .input-group input[type=text]::placeholder {
   color: #2155c2;
 }
 
-/* line 75, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 83, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .hero .input-group-append .input-group-text {
   border-radius: 0;
   border: 0;

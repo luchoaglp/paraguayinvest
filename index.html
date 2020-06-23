@@ -8,7 +8,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <nav class="navbar navbar-expand-lg fixed-top">
       <a class="navbar-brand" href="#"><img src="./img/logo.png" class="img-fluid" alt="Paraguayinvest"></a>
@@ -18,22 +18,22 @@
       <div class="collapse navbar-collapse" id="piNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Business & industries</a>
+            <a class="nav-link pi-link" href="#business">Business & industries</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Real state</a>
+            <a class="nav-link pi-link" href="#">Real state</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Capitales</a>
+            <a class="nav-link pi-link" href="#">Capitales</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Clientes</a>
+            <a class="nav-link pi-link" href="#">Clientes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Respaldo</a>
+            <a class="nav-link pi-link" href="#">Respaldo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link pi-link" href="#">Contacto</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -48,7 +48,7 @@
       </div>
     </nav>
 
-    <div class="hero container-fluid">
+    <div id="home" class="hero container-fluid">
 
       <header>
         <div class="row">
@@ -71,7 +71,7 @@
 
     </div>
 
-    <section>
+    <section id="business">
       <div style="min-height: 675px">
       </div>
     </section>
@@ -82,6 +82,39 @@
 <script>
 $(function() {
 
+  const heroHeight = $('.hero').height();
+  const $navbarLinks = $('.pi-link');
+  const xOffset = 40;
+  
+  let xPos = $(window).scrollTop();
+
+  setNavbarLinksColor = () => {
+
+    for(link of $navbarLinks) {
+      const $link = $(link);
+      if($link.hasClass('active')) {
+        $link.css('color', '#8c1c1d');
+      } else {
+        if(xPos > heroHeight - xOffset) {
+          $link.css('color', '#2155c2');
+        } else {
+          $link.css('color', 'white');
+        }
+      }
+    }
+  }
+
+  setNavbarLinksColor();
+
+  $navbarLinks.click(function() {
+    xPos = $(window).scrollTop();
+    setNavbarLinksColor();
+  });
+
+  $(window).scroll(function(ev) {
+    xPos = $(window).scrollTop();
+    setNavbarLinksColor();
+  });
     
 });
 </script>
