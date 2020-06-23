@@ -11,7 +11,7 @@
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <nav class="navbar navbar-expand-lg fixed-top">
-      <a class="navbar-brand" href="#"><img src="./img/logo.png" class="img-fluid" alt="Paraguayinvest"></a>
+      <a class="navbar-brand" href="#home"><img src="./img/logo.png" class="img-fluid" alt="Paraguayinvest"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#piNav" aria-controls="piNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -48,7 +48,7 @@
       </div>
     </nav>
 
-    <div id="home" class="hero container-fluid">
+    <div id="home" class="container-fluid">
 
       <header>
         <div class="row">
@@ -72,7 +72,17 @@
     </div>
 
     <section id="business">
-      <div style="min-height: 675px">
+      <div class="container" style="min-height: 675px">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>BUSINESS <br>& INDUSTRIES</h2>
+            <div class="business-box-1">
+              <h6>Analizamos cada proyecto</h6>
+              <p>en particular y las posibilidades que ofrecen los distintos mercados para desarrollarlos eficientemente.<br>
+              De esta manera, a través de nuestro asesoramiento y gestión, logramos mejoras y nuevos procesos para maximizar la rentabilidad de tu proyecto acompañándote como Partners y juntos conseguir el objetivo.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -87,7 +97,7 @@
 <script>
 $(function() {
 
-  const heroHeight = $('.hero').height();
+  const homeHeight = $('#home').height();
   const $navbarLinks = $('.pi-link');
   const xOffset = 40;
   
@@ -98,11 +108,11 @@ $(function() {
     for(link of $navbarLinks) {
       const $link = $(link);
       if($link.hasClass('active')) {
-        $link.css('color', '#8c1c1d');
         $link.append('<div class="pi-line-active"></div>');
+        $link.css('color', '#8c1c1d');
       } else {
         $link.find('.pi-line-active').remove();
-        if(xPos > heroHeight - xOffset) {
+        if(xPos > homeHeight - xOffset) {
           $link.css('color', '#2155c2');
         } else {
           $link.css('color', 'white');
