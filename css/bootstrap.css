@@ -11808,7 +11808,7 @@ html {
   background-size: cover;
   border-bottom-left-radius: 85px;
   padding-left: 4%;
-  margin-bottom: 1.9em;
+  margin-bottom: 2.75em;
 }
 
 /* line 27, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
@@ -11989,13 +11989,21 @@ html {
 }
 
 /* line 172, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+#business .business-box-2 .business-box-2-list div.business-box-2-divider {
+  border: 1px solid #2155c2;
+  text-align: left;
+  max-width: 55px;
+  margin: 1em 0 1.5em 5px;
+}
+
+/* line 179, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-2 ul {
   padding-left: 0;
   list-style: none;
-  /* Remove HTML bullets */
+  margin-bottom: 1.8em;
 }
 
-/* line 177, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 185, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-2 ul li {
   font-family: 'DINNextLTPro-Light', sans-serif;
   font-size: 1.04rem;
@@ -12003,7 +12011,7 @@ html {
   line-height: 2.4rem;
 }
 
-/* line 184, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 192, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-2 ul li::before {
   content: "•";
   padding-right: 5px;

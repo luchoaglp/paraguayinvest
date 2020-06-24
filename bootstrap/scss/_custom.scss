@@ -22,7 +22,7 @@ html {
     background-size: cover;
     border-bottom-left-radius: 85px;
     padding-left: 4%;
-    margin-bottom: 1.9em;
+    margin-bottom: 2.75em;
 }
 .navbar {
     padding: 0;
@@ -169,9 +169,17 @@ html {
     padding: 2em 0 2em 5.2em;
 }
 
+#business .business-box-2 .business-box-2-list div.business-box-2-divider {
+    border: 1px solid #2155c2;
+    text-align: left;
+    max-width: 55px;
+    margin: 1em 0 1.5em 5px;
+}
+
 #business .business-box-2 ul {
     padding-left: 0;
-    list-style: none; /* Remove HTML bullets */
+    list-style: none;
+    margin-bottom: 1.8em;
 }
 
 #business .business-box-2 ul li {
