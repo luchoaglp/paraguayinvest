@@ -69,7 +69,6 @@ html {
     background-size: cover;
     border-bottom-left-radius: 85px;
     padding-left: 4%;
-    margin-bottom: 2.75em;
 }
 #home h1 {
     font-family: 'DINNextLTPro-Light', sans-serif;
@@ -82,7 +81,6 @@ html {
 }
 
 #home .input-group {
-    padding-bottom: 5em;
     width: 330px;
 }
 
@@ -195,6 +193,10 @@ html {
         border-bottom: 1px dotted #2155c2;
     }
 
+    #home {
+        margin-bottom: 4em;
+    }
+
     #home h1 {
         text-align: center;
         padding-top: 1.6em;
@@ -204,6 +206,10 @@ html {
         width: 20%;
         margin-left: 40%;
         padding-bottom: 3.2em;
+    }
+
+    #home .input-group {
+        padding-bottom: 2.5em;
     }
 
     #business .col-md-6:nth-child(1) {
@@ -255,6 +261,10 @@ html {
         padding: 23px 11px 18px 11px;
         border: none;
     }
+
+    #home {
+        margin-bottom: 2.8em;
+    }
     
     #home h1 {
         text-align: left;
@@ -265,6 +275,10 @@ html {
         width: 16%;
         margin-left: 0;
         padding-bottom: 3.2em;
+    }
+
+    #home .input-group {
+        padding-bottom: .3em;
     }
 
     #business .col-md-6:nth-child(1) {
