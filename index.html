@@ -11,7 +11,7 @@
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <nav class="navbar navbar-expand-lg fixed-top">
-      <a class="navbar-brand" href="#home"><img src="./img/logo.png" class="img-fluid" alt="Paraguayinvest"></a>
+      <a class="navbar-brand" href="#home"><img src="./img/logo.png" alt="Paraguayinvest"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#piNav" aria-controls="piNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -21,7 +21,7 @@
             <a class="nav-link pi-link" href="#business">Business & industries</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pi-link" href="#state">Real state</a>
+            <a class="nav-link pi-link" href="#state">Real Estate</a>
           </li>
           <li class="nav-item">
             <a class="nav-link pi-link" href="#">Capitales</a>
@@ -47,8 +47,13 @@
         </ul>
       </div>
     </nav>
+<!--
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, world!</h1>
+    </div>
+  -->
 
-    <div id="home" class="container-fluid">
+    <div id="home" class="jumbotron">
 
       <header>
         <div class="row">
@@ -70,12 +75,12 @@
       </header>
 
     </div>
-
+  
     <section id="business">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2>BUSINESS <br>& INDUSTRIES</h2>
+            <h2>BUSINESS & INDUSTRIES</h2>
             <div class="business-box-1">
               <h6>Analizamos cada proyecto</h6>
               <p>en particular y las posibilidades que ofrecen los distintos mercados para desarrollarlos eficientemente.<br>
@@ -109,6 +114,8 @@
       </div>
     </section>
 
+   
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -118,7 +125,7 @@ $(function() {
   const $navbar = $('.navbar');
   const homeHeight = $('#home').height();
   const $navbarLinks = $('.pi-link');
-  const xOffset = 100;
+  const xOffset = -10;
   
   let xPos = $(window).scrollTop();
 

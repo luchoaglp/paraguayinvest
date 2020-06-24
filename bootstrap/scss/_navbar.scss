@@ -129,6 +129,9 @@
   background-color: #2155c2;
   opacity: .9;
 
+  margin-top: 5px;
+  margin-right: 5px;
+
   @include hover-focus() {
     text-decoration: none;
   }
