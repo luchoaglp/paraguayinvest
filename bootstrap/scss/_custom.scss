@@ -19,24 +19,11 @@ html {
 }
 .navbar .navbar-brand {
     padding-top: 0;
-    /*padding-top: 23px;*/
-    /*max-width: 2em;*/
 }
 .navbar img {
     position: absolute;
-    /*top: 1.2em;
-    left: 3.2em;*/
 }
 
-.navbar ul.navbar-nav {
-    /*margin-top: -30px;*/
-}
-
-/*
-.navbar ul.navbar-nav > li {
-    padding: 23px 11px 18px 11px;
-}
-*/
 .navbar ul.navbar-nav > li > a {
     position: relative;
     color: $white;
@@ -80,10 +67,6 @@ html {
     font-family: 'DINNextLTPro-Regular', sans-serif;
 }
 
-#home .input-group {
-    width: 330px;
-}
-
 #home .input-group input[type=text] {
     border-radius: 0;
     border-top-left-radius: 15px;
@@ -101,8 +84,8 @@ html {
     background-color: #ad110b;
     font-size: 1.8rem;
     color: $white;
-    padding-left: 29px;
-    padding-right: 29px;
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
 #business {
@@ -213,6 +196,7 @@ html {
 
     #home .input-group {
         padding-bottom: 2.5em;
+        width: 330px;
     }
 
     #business .col-md-6:nth-child(1) {
@@ -239,33 +223,46 @@ html {
 /* 2 */
 @include media-breakpoint-up(sm) {
     
+    .navbar img {
+        width: 21%;
+    }
+
+    #home .input-group {
+        padding-bottom: .3em;
+        width: 100%;
+    }
+    
 }
 
 /* 3 */
 @include media-breakpoint-up(md) {
+
+    .navbar img {
+        width: 15%;
+    }
+
+    #home h1 {
+        text-align: left;
+    }
+
+    #home .input-group {
+        width: 330px;
+    }
+
     
 }
 /* 4 */
 @include media-breakpoint-up(lg) {
    
-}
-
-@include media-breakpoint-up(xl) {
-
     .navbar-collapse {
         margin-top: 0;
     }
 
     .navbar img {
-        width: 13%;
-        top: 1.2em;
-        left: 1.6em;
-        margin-left: 1.6em; 
-
+        width: 11%;
     }
 
     .navbar ul.navbar-nav > li {
-        padding: 23px 11px 18px 11px;
         border: none;
     }
 
@@ -274,7 +271,6 @@ html {
     }
     
     #home h1 {
-        text-align: left;
         padding-top: 2.7em;
         font-size: 4.4rem;
     }
@@ -285,11 +281,11 @@ html {
     }
 
     #home .input-group {
-        padding-bottom: .3em;
+        width: 330px;
     }
 
     #business .col-md-6:nth-child(1) {
-        padding-top: 12em;
+        padding-top: 13.2em;
         padding-right: 0;
         z-index: 999;
     }
@@ -305,15 +301,31 @@ html {
         text-align: left;
         line-height: 2.1rem;
         letter-spacing: 7px;
-        padding-left: 4.2em;
+        padding-left: 4.4em;
         margin-bottom: 0.5em;
     }
 
     #business .business-box-1 {
-        margin-left: 6.5em;
+        margin-left: 6.8em;
         padding: 4em 3em 3em 3.1em;
     }
 
+}
+
+@include media-breakpoint-up(xl) {
+
+
+    .navbar img {
+        width: 13%;
+        top: 1.2em;
+        left: 1.6em;
+        margin-left: 1.6em; 
+    }
+
+    .navbar ul.navbar-nav > li {
+        padding: 23px 11px 18px 11px;
+    }
+    
     #business .business-box-2 .business-box-2-list {
         padding: 2em 0 2em 5.2em;
     }
