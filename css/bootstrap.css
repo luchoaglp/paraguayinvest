@@ -4981,6 +4981,10 @@ input[type="button"].btn-block {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  /*background-color: #2155c2;*/
+  border-color: #8c1c1d;
+  background-color: #2155c2;
+  opacity: .9;
 }
 
 /* line 17, /var/www/html/paraguayinvest/bootstrap/scss/mixins/_hover.scss */
@@ -4988,7 +4992,7 @@ input[type="button"].btn-block {
   text-decoration: none;
 }
 
-/* line 134, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+/* line 140, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
 .navbar-toggler-icon {
   display: inline-block;
   width: 1.5em;
@@ -4997,10 +5001,12 @@ input[type="button"].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-color: #2155c2;
 }
 
 @media (max-width: 575.98px) {
-  /* line 153, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 163, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid,
   .navbar-expand-sm > .container-sm,
@@ -5013,25 +5019,25 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 576px) {
-  /* line 151, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 161, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-sm {
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
-  /* line 174, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 184, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-sm .navbar-nav {
     flex-direction: row;
   }
-  /* line 177, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 187, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-sm .navbar-nav .dropdown-menu {
     position: absolute;
   }
-  /* line 181, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 191, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  /* line 188, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 198, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid,
   .navbar-expand-sm > .container-sm,
@@ -5040,19 +5046,19 @@ input[type="button"].btn-block {
   .navbar-expand-sm > .container-xl {
     flex-wrap: nowrap;
   }
-  /* line 203, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 213, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-sm .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
   }
-  /* line 210, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 220, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-sm .navbar-toggler {
     display: none;
   }
 }
 
 @media (max-width: 767.98px) {
-  /* line 153, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 163, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid,
   .navbar-expand-md > .container-sm,
@@ -5065,25 +5071,25 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 768px) {
-  /* line 151, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 161, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-md {
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
-  /* line 174, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 184, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-md .navbar-nav {
     flex-direction: row;
   }
-  /* line 177, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 187, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
   }
-  /* line 181, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 191, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  /* line 188, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 198, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid,
   .navbar-expand-md > .container-sm,
@@ -5092,19 +5098,19 @@ input[type="button"].btn-block {
   .navbar-expand-md > .container-xl {
     flex-wrap: nowrap;
   }
-  /* line 203, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 213, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-md .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
   }
-  /* line 210, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 220, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-md .navbar-toggler {
     display: none;
   }
 }
 
 @media (max-width: 991.98px) {
-  /* line 153, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 163, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid,
   .navbar-expand-lg > .container-sm,
@@ -5117,25 +5123,25 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 992px) {
-  /* line 151, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 161, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
-  /* line 174, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 184, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
   }
-  /* line 177, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 187, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
   }
-  /* line 181, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 191, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  /* line 188, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 198, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid,
   .navbar-expand-lg > .container-sm,
@@ -5144,19 +5150,19 @@ input[type="button"].btn-block {
   .navbar-expand-lg > .container-xl {
     flex-wrap: nowrap;
   }
-  /* line 203, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 213, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
   }
-  /* line 210, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 220, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
 }
 
 @media (max-width: 1199.98px) {
-  /* line 153, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 163, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid,
   .navbar-expand-xl > .container-sm,
@@ -5169,25 +5175,25 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 1200px) {
-  /* line 151, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 161, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-xl {
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
-  /* line 174, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 184, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-xl .navbar-nav {
     flex-direction: row;
   }
-  /* line 177, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 187, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-xl .navbar-nav .dropdown-menu {
     position: absolute;
   }
-  /* line 181, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 191, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-xl .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  /* line 188, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 198, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid,
   .navbar-expand-xl > .container-sm,
@@ -5196,24 +5202,24 @@ input[type="button"].btn-block {
   .navbar-expand-xl > .container-xl {
     flex-wrap: nowrap;
   }
-  /* line 203, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 213, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-xl .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
   }
-  /* line 210, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+  /* line 220, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
   .navbar-expand-xl .navbar-toggler {
     display: none;
   }
 }
 
-/* line 151, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+/* line 161, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
 .navbar-expand {
   flex-flow: row nowrap;
   justify-content: flex-start;
 }
 
-/* line 153, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+/* line 163, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
 .navbar-expand > .container,
 .navbar-expand > .container-fluid,
 .navbar-expand > .container-sm,
@@ -5224,23 +5230,23 @@ input[type="button"].btn-block {
   padding-left: 0;
 }
 
-/* line 174, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+/* line 184, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
 .navbar-expand .navbar-nav {
   flex-direction: row;
 }
 
-/* line 177, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+/* line 187, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
 .navbar-expand .navbar-nav .dropdown-menu {
   position: absolute;
 }
 
-/* line 181, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+/* line 191, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
 .navbar-expand .navbar-nav .nav-link {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
 }
 
-/* line 188, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+/* line 198, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
 .navbar-expand > .container,
 .navbar-expand > .container-fluid,
 .navbar-expand > .container-sm,
@@ -5250,13 +5256,13 @@ input[type="button"].btn-block {
   flex-wrap: nowrap;
 }
 
-/* line 203, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+/* line 213, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
 .navbar-expand .navbar-collapse {
   display: flex !important;
   flex-basis: auto;
 }
 
-/* line 210, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
+/* line 220, /var/www/html/paraguayinvest/bootstrap/scss/_navbar.scss */
 .navbar-expand .navbar-toggler {
   display: none;
 }
@@ -11825,8 +11831,8 @@ html {
 
 /* line 35, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 .navbar img {
-  width: 100%;
-  padding-left: 3em;
+  /*width: 100%;*/
+  /*padding-left: 3em;*/
 }
 
 /* line 40, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
@@ -11861,33 +11867,39 @@ html {
 }
 
 /* line 65, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+.navbar-collapse.show {
+  background-color: #2155c2;
+  opacity: .7;
+}
+
+/* line 70, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #home h1 {
   font-family: 'DINNextLTPro-Light', sans-serif;
   padding-top: 3.5em;
   margin-bottom: 0;
-  font-size: 4.4rem;
+  /*font-size: 4.4rem;*/
   line-height: 4.8rem;
   color: #fff;
 }
 
-/* line 73, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 78, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #home img {
   width: 16%;
   padding-bottom: 3.2em;
 }
 
-/* line 77, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 82, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #home h1 span {
   font-family: 'DINNextLTPro-Regular', sans-serif;
 }
 
-/* line 81, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 86, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #home .input-group {
   padding-bottom: 5em;
   width: 330px;
 }
 
-/* line 86, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 91, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #home .input-group input[type=text] {
   border-radius: 0;
   border-top-left-radius: 15px;
@@ -11895,12 +11907,12 @@ html {
   letter-spacing: 1.4px;
 }
 
-/* line 93, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 98, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #home .input-group input[type=text]::placeholder {
   color: #2155c2;
 }
 
-/* line 97, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 102, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #home .input-group-append .input-group-text {
   border-radius: 0;
   border: 0;
@@ -11911,7 +11923,7 @@ html {
   padding-right: 29px;
 }
 
-/* line 107, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 112, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business {
   background-image: url("../img/business.png");
   -webkit-background-size: cover;
@@ -11920,21 +11932,21 @@ html {
   background-size: cover;
 }
 
-/* line 115, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 120, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .col-md-6:nth-child(1) {
   padding-top: 12em;
   padding-right: 0;
   z-index: 999;
 }
 
-/* line 121, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 126, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .col-md-6:nth-child(2) {
   padding-top: 6.5em;
   padding-left: 0;
   padding-right: 9em;
 }
 
-/* line 127, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 132, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .col-md-6:nth-child(1) h2 {
   font-family: 'DINNextLTPro-Light', sans-serif;
   color: #8c1c1d;
@@ -11945,7 +11957,7 @@ html {
   margin-bottom: 0.5em;
 }
 
-/* line 137, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 142, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-1 {
   color: #fff;
   background-color: #2155c2;
@@ -11956,20 +11968,20 @@ html {
   box-shadow: 0px 11px 7px -6px #8f8f8f;
 }
 
-/* line 146, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 151, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-1 h6 {
   font-family: 'DINNextLTPro-Bold', sans-serif;
   line-height: 1.3rem;
   font-size: 1.3rem;
 }
 
-/* line 151, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 156, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-1 p {
   font-family: 'DINNextLTPro-Light', sans-serif;
   font-size: 1.3rem;
 }
 
-/* line 156, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 161, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-2 {
   border-top-left-radius: 80px;
   -webkit-box-shadow: 6px 5px 19px 5px #bababa;
@@ -11977,18 +11989,18 @@ html {
   box-shadow: 6px 5px 19px 5px #bababa;
 }
 
-/* line 163, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 168, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-2 img {
   border-top-left-radius: 70px;
 }
 
-/* line 167, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 172, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-2 .business-box-2-list {
   background-color: #e6e7e8;
   padding: 2em 0 2em 5.2em;
 }
 
-/* line 172, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 177, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-2 .business-box-2-list div.business-box-2-divider {
   border: 1px solid #2155c2;
   text-align: left;
@@ -11996,14 +12008,14 @@ html {
   margin: 1em 0 1.5em 5px;
 }
 
-/* line 179, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 184, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-2 ul {
   padding-left: 0;
   list-style: none;
   margin-bottom: 1.8em;
 }
 
-/* line 185, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 190, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-2 ul li {
   font-family: 'DINNextLTPro-Light', sans-serif;
   font-size: 1.04rem;
@@ -12011,7 +12023,7 @@ html {
   line-height: 2.4rem;
 }
 
-/* line 192, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+/* line 197, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #business .business-box-2 ul li::before {
   content: "•";
   padding-right: 5px;
@@ -12020,8 +12032,41 @@ html {
 }
 
 /* 1 */
+/* line 207, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+#home h1 {
+  font-size: 4rem;
+}
+
+/* line 211, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+.navbar img {
+  width: 75%;
+  padding-left: 1em;
+}
+
+/* line 216, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+.navbar ul.navbar-nav > li {
+  text-align: center;
+}
+
 /* 2 */
 /* 3 */
 /* 4 */
+@media (min-width: 1200px) {
+  /* line 238, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  #home h1 {
+    font-size: 4.4rem;
+  }
+  /* line 242, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  .navbar .navbar-brand {
+    padding-top: 0;
+    padding-top: 23px;
+    max-width: 225px;
+  }
+  /* line 247, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  .navbar img {
+    width: 100%;
+    padding-left: 3em;
+  }
+}
 
 /*# sourceMappingURL=../../css/bootstrap.map */

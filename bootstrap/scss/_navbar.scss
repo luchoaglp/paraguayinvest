@@ -123,10 +123,16 @@
   background-color: transparent; // remove default button style
   border: $border-width solid transparent; // remove default button style
   @include border-radius($navbar-toggler-border-radius);
+  /*background-color: #2155c2;*/
+
+  border-color: #8c1c1d;
+  background-color: #2155c2;
+  opacity: .9;
 
   @include hover-focus() {
     text-decoration: none;
   }
+
 }
 
 // Keep as a separate element so folks can easily override it with another icon
@@ -139,7 +145,11 @@
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+  background-image: escape-svg($navbar-light-toggler-icon-bg);
+  background-color: #2155c2;
 }
+
+
 
 // Generate series of `.navbar-expand-*` responsive classes for configuring
 // where your navbar collapses.
