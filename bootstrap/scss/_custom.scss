@@ -88,7 +88,7 @@ html {
     padding-right: 28px;
 }
 
-#business {
+#business, #market {
     background-image: url('../img/business-background.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -96,36 +96,43 @@ html {
     background-size: cover;
 }
 
-#business .col-md-6:nth-child(1) {
+#business .col-md-6:nth-child(1),
+#state .col-md-6:nth-child(2),
+#market .col-md-6:nth-child(1) {
     z-index: 999;
 }
 
 #business h2,
-#state h2 {
+#state h2,
+#market h2 {
     font-family: 'DINNextLTPro-Light', sans-serif;
     color: #8c1c1d;
 }
 
 #business .box-1,
-#state .box-1 {
+#state .box-1,
+#market .box-1 {
     color: $white;
     background-color: #2155c2;
     -webkit-box-shadow: 0px 11px 7px -6px rgba(143,143,143,1);
     -moz-box-shadow: 0px 11px 7px -6px rgba(143,143,143,1);
     box-shadow: 0px 11px 7px -6px rgba(143,143,143,1);
 }
-#business .box-1 h6{
+#business .box-1 h6 {
     font-family: 'DINNextLTPro-Bold', sans-serif;
-    line-height: 1.3rem;
+    line-height: 1.4rem;
     font-size: 1.3rem;
 }
-#business .box-1 p {
+#business .box-1 p,
+#market .box-1 p {
     font-family: 'DINNextLTPro-Light', sans-serif;
     font-size: 1.3rem;
+    line-height: 2rem;
 }
 
 #business .box-2,
-#state .box-2 {
+#state .box-2,
+#market .box-2 {
     border-top-left-radius: 80px;
     -webkit-box-shadow: 6px 5px 19px 5px rgba(186,186,186,1);
     -moz-box-shadow: 6px 5px 19px 5px rgba(186,186,186,1);
@@ -133,17 +140,20 @@ html {
 }
 
 #business .box-2 img,
-#state .box-2 img {
+#state .box-2 img,
+#market .box-2 img {
     border-top-left-radius: 70px;
 }
 
 #business .box-2 .box-2-list,
-#state .box-2 .box-2-list {
+#state .box-2 .box-2-list,
+#market .box-2 .box-2-list {
     background-color: #e6e7e8;
 }
 
 #business .box-2 .box-2-list div.box-2-divider,
-#state .box-2 .box-2-list div.box-2-divider {
+#state .box-2 .box-2-list div.box-2-divider,
+#market .box-2 .box-2-list div.box-2-divider {
     border: 1px solid #2155c2;
     text-align: left;
     max-width: 55px;
@@ -151,14 +161,16 @@ html {
 }
 
 #business .box-2 ul,
-#state .box-2 ul {
+#state .box-2 ul,
+#market .box-2 ul {
     padding-left: 0;
     list-style: none;
     margin-bottom: 1.8em;
 }
 
 #business .box-2 ul li,
-#state .box-2 ul li {
+#state .box-2 ul li,
+#market .box-2 ul li {
     font-family: 'DINNextLTPro-Light', sans-serif;
     font-size: 1.04rem;
     color: #2155c2;
@@ -166,7 +178,8 @@ html {
 }
 
 #business .box-2 ul li::before,
-#state .box-2 ul li::before {
+#state .box-2 ul li::before,
+#market .box-2 ul li::before {
     content: "•"; 
     padding-right: 5px;
     font-size: 1.7rem;
@@ -181,7 +194,7 @@ html {
     background-size: cover;
 }
 
-#state .box-1 p span {
+#state .box-1 p span, #market .box-1 span  {
     font-family: 'DINNextLTPro-Bold', sans-serif;
 }
 #state .box-1 p {
@@ -229,12 +242,14 @@ html {
     }
 
     #business .col-md-6:nth-child(1),
-    #state .col-md-6:nth-child(1) {
+    #state .col-md-6:nth-child(1),
+    #market .col-md-6:nth-child(1) {
         padding-bottom: 1em;
     }
     
     #business h2,
-    #state h2 {
+    #state h2,
+    #market h2 {
         font-size: 1.8rem;
         text-align: center;
         line-height: 2.1rem;
@@ -242,13 +257,15 @@ html {
     }
 
     #business .box-1,
-    #state .box-1 {
+    #state .box-1,
+    #market .box-1 {
         padding: 3em 2em 3em 2em;
     }
 
     #business .box-2 .box-2-list,
-    #state .box-2 .box-2-list {
-        padding: 1.5em 0 1.5em 2.6em;
+    #state .box-2 .box-2-list,
+    #market .box-2 .box-2-list {
+        padding: 1.5em 0.7em 1.5em 1.5em;
     }
     
 }
@@ -317,7 +334,7 @@ html {
         width: 330px;
     }
 
-    #business, #state {
+    #business, #state, #market {
         padding-bottom: 11em;
     }
 
@@ -332,7 +349,8 @@ html {
         padding-right: 9em;
     }
 
-    #business h2 {
+    #business h2,
+    #market h2 {
         font-size: 2.3rem;
         text-align: left;
         line-height: 2.1rem;
@@ -341,9 +359,10 @@ html {
         margin-bottom: 0.5em;
     }
 
-    #business .box-1 {
+    #business .box-1,
+    #market .box-1 {
         margin-left: 6.8em;
-        padding: 4em 3em 3em 3.1em;
+        padding: 4.2em 2.8em 3.2em 3.1em;
     }
 
     #state .col-md-6:nth-child(1) {
@@ -363,7 +382,7 @@ html {
         line-height: 2.1rem;
         letter-spacing: 7px;
         padding-left: 1.5em;
-        padding-right: 3em;
+        /*padding-right: 3em;*/
         margin-bottom: 0.5em;
     }
 
@@ -373,6 +392,17 @@ html {
 
     #state .box-2 {
         margin-left: 8.5em;
+    }
+
+    #market .col-md-6:nth-child(1) {
+        padding-top: 9em;
+        padding-right: 0;
+    }
+    
+    #market .col-md-6:nth-child(2) {
+        padding-top: 6.5em;
+        padding-left: 0;
+        padding-right: 9em;
     }
 
 }
@@ -392,8 +422,9 @@ html {
     }
     
     #business .box-2 .box-2-list,
-    #state .box-2 .box-2-list {
-        padding: 2em 0 2em 5.2em;
+    #state .box-2 .box-2-list,
+    #market .box-2 .box-2-list {
+        padding: 2em 4em 2em 4.7em;
     }
 
 }
