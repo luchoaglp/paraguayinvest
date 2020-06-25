@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:wsp="http://wsplataforma.intecsoft.com.ar/">
+   <soap:Header />
+   <soap:Body>
+      <wsp:CrearCliente>
+         <wsp:Usuario />
+         <wsp:oCliente>
+            <wsp:ClienteID />
+            <wsp:Nombre />
+            <wsp:NombreLegal />
+            <wsp:EsClienteGlobal />
+            <wsp:CodigoDeProveedorParaElCliente />
+            <wsp:Referencia />
+            <wsp:CondicionAnteElIVA />
+            <wsp:CondicionAnteElIVANombre />
+            <wsp:ClaveTributaria />
+            <wsp:IngresosBrutos />
+            <wsp:ContactoDeVenta />
+            <wsp:ContactoDeCobros />
+            <wsp:CondicionPago />
+            <wsp:CondicionPagoNombre />
+            <wsp:MonedaUsualCuentaCorriente />
+            <wsp:MonedaUsualCuentaCorrienteNombre />
+            <wsp:CuentaCliente />
+            <wsp:TipoDeCliente />
+            <wsp:TipoDeClienteNombre />
+            <wsp:ActividadDeCliente />
+            <wsp:ActividadDeClienteNombre />
+            <wsp:Clasificacion1 />
+            <wsp:Clasificacion1Nombre />
+            <wsp:Clasificacion2 />
+            <wsp:Clasificacion2Nombre />
+            <wsp:Clasificacion3 />
+            <wsp:Clasificacion3Nombre />
+            <wsp:Clasificacion4 />
+            <wsp:Clasificacion4Nombre />
+            <wsp:Clasificacion5 />
+            <wsp:Clasificacion5Nombre />
+            <wsp:Clasificacion6 />
+            <wsp:Clasificacion6Nombre />
+            <wsp:Clasificacion7 />
+            <wsp:Clasificacion7Nombre />
+            <wsp:Clasificacion8 />
+            <wsp:Clasificacion8Nombre />
+            <wsp:Clasificacion9 />
+            <wsp:Clasificacion9Nombre />
+            <wsp:Vendedor />
+            <wsp:VendedorNombre />
+            <wsp:Vendedor2 />
+            <wsp:Vendedor2Nombre />
+            <wsp:ZonaDeVenta />
+            <wsp:ZonaDeVentaNombre />
+            <wsp:Cobrador />
+            <wsp:CobradorNombre />
+            <wsp:BloqueadoParaNotasDePedido />
+            <wsp:BloqueadoParaFacturar />
+            <wsp:BloqueadoReservas />
+            <wsp:BloqueadoParaContratos />
+            <wsp:FechaDeAlta />
+            <wsp:FechaDeBaja />
+            <wsp:HabilitadoParaConsultasWeb />
+            <wsp:PasswordParaConsultasWeb />
+            <wsp:FormatoDeImpresionPorCliente />
+            <wsp:FormatoDeImpresionPorClienteNombre />
+            <wsp:AtributoString1 />
+            <wsp:AtributoString2 />
+            <wsp:AtributoString3 />
+            <wsp:AtributoString4 />
+            <wsp:AtributoFecha1 />
+            <wsp:AtributoFecha2 />
+            <wsp:AtributoFecha3 />
+            <wsp:AtributoFecha4 />
+            <wsp:Clasificacion1PedidosYComprobantesVarios />
+            <wsp:Clasificacion1PedidosYComprobantesVariosNombre />
+            <wsp:Clasificacion2PedidosYComprobantesVarios />
+            <wsp:Clasificacion2PedidosYComprobantesVariosNombre />
+            <wsp:Clasificacion3PedidosYComprobantesVarios />
+            <wsp:Clasificacion3PedidosYComprobantesVariosNombre />
+            <wsp:Clasificacion4PedidosYComprobantesVarios />
+            <wsp:Clasificacion4PedidosYComprobantesVariosNombre />
+            <wsp:Clasificacion5PedidosYComprobantesVarios />
+            <wsp:Clasificacion5PedidosYComprobantesVariosNombre />
+            <wsp:Clasificacion6PedidosYComprobantesVarios />
+            <wsp:Clasificacion6PedidosYComprobantesVariosNombre />
+            <wsp:HabilitadoParaConciliacionConEmpresaCliente />
+            <wsp:CodigoDeClienteExterno />
+            <wsp:ProximaGestionDeCobranzaFecha />
+            <wsp:ProximaGestionDeCobranza />
+            <wsp:ProximaGestionDeCobranzaObservacion />
+            <wsp:FormaDeGenerarComprobantesEnElSistemaDeContratos />
+            <wsp:SeConsideraParaTasaDeAbasto />
+            <wsp:ControlaElCobroCorrelativoPorVencimiento />
+            <wsp:CodigoDeCalle />
+            <wsp:CodigoDeCalleNombre />
+            <wsp:Calle />
+            <wsp:NumeroCalle />
+            <wsp:Departamento />
+            <wsp:Piso />
+            <wsp:Barrio />
+            <wsp:Domicilio />
+            <wsp:Localidad />
+            <wsp:CodigoPostal />
+            <wsp:Provincia />
+            <wsp:ProvinciaNombre />
+            <wsp:Municipio />
+            <wsp:MunicipioNombre />
+            <wsp:Pais />
+            <wsp:PaisNombre />
+            <wsp:Telefono />
+            <wsp:Fax />
+            <wsp:Email />
+            <wsp:Observacion />
+            <wsp:Transporte />
+            <wsp:TransporteNombre />
+            <wsp:VehiculoPorDefecto />
+            <wsp:VehiculoPorDefectoNombre />
+            <wsp:Distribuidor />
+            <wsp:DistribuidorNombre />
+            <wsp:ZonaDeDistribucion />
+            <wsp:ZonaDeDistribucionNombre />
+            <wsp:HorarioDeAtencion />
+            <wsp:HorarioDeEntrega />
+            <wsp:DiasDeGraciaParaElCalculoDeDiasDeAtrasoDeRecibos />
+            <wsp:SitioWeb />
+            <wsp:DescripcionDeLaActividad />
+            <wsp:FacturacionAnualEnMonedaLocal />
+            <wsp:CantidadDeEmpleados />
+            <wsp:EnvioComprobantesPorMailDireccionDeMail />
+            <wsp:EnvioComprobantesPorMailAsuntoDelMail />
+            <wsp:EnvioComprobantesPorMailCuerpoDelMail />
+            <wsp:EnvioRecibosDeClientesPorMailDireccionDeMail />
+            <wsp:EnvioRecibosDeClientesPorMailAsuntosDelMail />
+            <wsp:EnvioRecibosDeClientesPorMailCuerpoDelMail />
+            <wsp:TasaMensualParaCalculoDeInteres />
+            <wsp:ClasificacionesRep1>
+               <!--Zero or more repetitions:-->
+               <wsp:ClienteClasifRepetitiva1DTO>
+                  <wsp:ClienteID />
+                  <wsp:ClasificacionRepetitiva1 />
+               </wsp:ClienteClasifRepetitiva1DTO>
+            </wsp:ClasificacionesRep1>
+            <wsp:PersonaFisica>
+               <wsp:ClienteID />
+               <wsp:FechaDeNacimiento />
+               <wsp:PaisDeNacimiento />
+               <wsp:PaisDeNacimientoNombre />
+               <wsp:Nacionalidad />
+               <wsp:NacionalidadNombre />
+               <wsp:Sexo />
+               <wsp:Profesion />
+               <wsp:ProfesionNombre />
+               <wsp:TarjetaDeCredito />
+               <wsp:TarjetaDeCreditoNombre />
+               <wsp:FechaDeVencimientoDeTarjetaDeCredito />
+               <wsp:TipoDeDocumento />
+               <wsp:TipoDeDocumentoNombre />
+               <wsp:NumeroDeDocumento />
+               <wsp:NumeroDeTarjetaDeCredito />
+            </wsp:PersonaFisica>
+            <wsp:Vehiculos>
+               <!--Zero or more repetitions:-->
+               <wsp:ClienteVehiculoDTO>
+                  <wsp:ClienteID />
+                  <wsp:Renglon />
+                  <wsp:Patente />
+                  <wsp:Marca />
+                  <wsp:Modelo />
+               </wsp:ClienteVehiculoDTO>
+            </wsp:Vehiculos>
+            <wsp:ContactosComerciales>
+               <!--Zero or more repetitions:-->
+               <wsp:ClienteContactoComercialDTO>
+                  <wsp:ContactoComercialID />
+                  <wsp:ClienteID />
+                  <wsp:Renglon />
+                  <wsp:ContactoTipo />
+                  <wsp:Observacion />
+                  <wsp:FechaAlta />
+                  <wsp:FechaBaja />
+               </wsp:ClienteContactoComercialDTO>
+            </wsp:ContactosComerciales>
+            <wsp:Domicilios>
+               <!--Zero or more repetitions:-->
+               <wsp:ClienteDomicilioDTO>
+                  <wsp:ClienteID />
+                  <wsp:Renglon />
+                  <wsp:Domicilio />
+                  <wsp:Localidad />
+                  <wsp:CodigoPostal />
+                  <wsp:Provincia />
+                  <wsp:ProvinciaNombre />
+                  <wsp:Pais />
+                  <wsp:PaisNombre />
+                  <wsp:Telefono />
+                  <wsp:Fax />
+                  <wsp:Email />
+                  <wsp:Observacion />
+                  <wsp:HorarioDeAtencion />
+                  <wsp:HorarioDeEntrega />
+                  <wsp:Transporte />
+                  <wsp:TransporteNombre />
+                  <wsp:Utilizable />
+                  <wsp:Municipio />
+                  <wsp:MunicipioNombre />
+                  <wsp:EsDireccionPrincipal />
+                  <wsp:VehiculoPorDefecto />
+                  <wsp:VehiculoPorDefectoNombre />
+                  <wsp:Distribuidor />
+                  <wsp:DistribuidorNombre />
+                  <wsp:ZonaDeDistribucion />
+                  <wsp:ZonaDeDistribucionNombre />
+                  <wsp:Calle />
+                  <wsp:NumeroCalle />
+                  <wsp:Piso />
+                  <wsp:Departamento />
+                  <wsp:Barrio />
+                  <wsp:CodigoDeLocalidad />
+                  <wsp:CodigoDeLocalidadNombre />
+                  <wsp:Partido />
+                  <wsp:PartidoNombre />
+                  <wsp:CodigoDeCalle />
+                  <wsp:CodigoDeCalleNombre />
+                  <wsp:UtilizaDomicilioDelDistribuidorParaGeneracionDelCOT />
+               </wsp:ClienteDomicilioDTO>
+            </wsp:Domicilios>
+            <wsp:Impuestos>
+               <!--Zero or more repetitions:-->
+               <wsp:ClienteImpuestoDTO>
+                  <wsp:ClienteID />
+                  <wsp:ImpuestoCod />
+                  <wsp:CategoriaCod />
+                  <wsp:FechaVigenciaDesde />
+                  <wsp:FechaVigenciaHasta />
+                  <wsp:SeCalculaSiExisteEnItemAPagar />
+               </wsp:ClienteImpuestoDTO>
+            </wsp:Impuestos>
+            <wsp:Leyendas>
+               <!--Zero or more repetitions:-->
+               <wsp:ClienteLeyendaDTO>
+                  <wsp:ClienteID />
+                  <wsp:Orden />
+                  <wsp:Leyenda />
+               </wsp:ClienteLeyendaDTO>
+            </wsp:Leyendas>
+            <wsp:RetencionesComoAgente>
+               <!--Zero or more repetitions:-->
+               <wsp:ClienteRetencionComoAgenteDTO>
+                  <wsp:ClienteID />
+                  <wsp:RetencionCod />
+                  <wsp:CategoriaCod />
+                  <wsp:FechaVigenciaDesde />
+                  <wsp:FechaVigenciaHasta />
+               </wsp:ClienteRetencionComoAgenteDTO>
+            </wsp:RetencionesComoAgente>
+            <wsp:RetencionesEnPago>
+               <!--Zero or more repetitions:-->
+               <wsp:ClienteRetencionEnPagoDTO>
+                  <wsp:ClienteID />
+                  <wsp:RetencionCod />
+                  <wsp:CategoriaCod />
+                  <wsp:FechaVigenciaDesde />
+                  <wsp:FechaVigenciaHasta />
+                  <wsp:SeCalculaHabitualmente />
+               </wsp:ClienteRetencionEnPagoDTO>
+            </wsp:RetencionesEnPago>
+            <wsp:Vendedores>
+               <!--Zero or more repetitions:-->
+               <wsp:ClienteVendedorDTO>
+                  <wsp:ClienteID />
+                  <wsp:VendedorCod />
+                  <wsp:TomaPorDefectoEnCpbtesFacturacion />
+                  <wsp:EnviaSaldosPorPDA />
+               </wsp:ClienteVendedorDTO>
+            </wsp:Vendedores>
+            <wsp:Responsables>
+               <!--Zero or more repetitions:-->
+               <wsp:ClienteResponsableCuentaDTO>
+                  <wsp:ClienteID />
+                  <wsp:Responsable />
+                  <wsp:EsResponsablePpal />
+               </wsp:ClienteResponsableCuentaDTO>
+            </wsp:Responsables>
+            <wsp:CuentasEOAF>
+               <!--Zero or more repetitions:-->
+               <wsp:ClienteCuentaEOAFDTO>
+                  <wsp:Presupuesto />
+                  <wsp:ClienteID />
+                  <wsp:CuentaPresupuestariaDeudora />
+                  <wsp:CuentaPresupuestariaAcreedora />
+               </wsp:ClienteCuentaEOAFDTO>
+            </wsp:CuentasEOAF>
+         </wsp:oCliente>
+      </wsp:CrearCliente>
+   </soap:Body>
+</soap:Envelope>
