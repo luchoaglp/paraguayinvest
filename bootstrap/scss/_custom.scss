@@ -186,7 +186,7 @@ html {
     border: 1px solid #2155c2;
     text-align: left;
     max-width: 55px;
-    margin: 1em 0 1.5em 5px;
+    margin: 1em 0 1.3em 5px;
 }
 
 #knowledge .box-2 .box-2-list div.box-2-divider {
@@ -258,8 +258,8 @@ html {
     font-size: 1.3rem;
 }
 
-.market-container {
-    background-image: url('../img/market-container.png');
+#market {
+    background-image: url('../img/market-background.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -383,16 +383,6 @@ html {
         border: none;
     }
 
-    /*
-    .navbar ul.navbar-nav .dropdown-menu {
-        left: -15px;
-    }
-
-    .navbar ul.navbar-nav .dropdown-menu img {
-        /*margin-top: -9px;
-        margin-left: 22px;
-    }
-*/
     #home {
         margin-bottom: 0;
     }
@@ -412,8 +402,12 @@ html {
         width: 330px;
     }
 
-    #business, #state, #market, .market-container {
-        padding-bottom: 11em;
+    #business, #state, .market-container {
+        padding-bottom: 10em;
+    }
+
+    #market {
+        padding-bottom: 7em;
     }
 
     #business .col-md-6:nth-child(1) {
@@ -460,7 +454,6 @@ html {
         line-height: 2.1rem;
         letter-spacing: 7px;
         padding-left: 1.5em;
-        /*padding-right: 3em;*/
         margin-bottom: 0.5em;
     }
 
@@ -499,12 +492,6 @@ html {
     #knowledge .box-1 p:nth-child(2) {
         padding: .5em .5em 3.5em 1.7em;
     }
-
-    /*
-    #knowledge .col-md-6:nth-child(1) {
-        padding-left: 0;
-    }
-    */
 
 }
 
