@@ -41,6 +41,18 @@ html {
     padding-right: 5px;
 }
 
+.navbar ul.navbar-nav .dropdown-toggle::after {
+    display: none;
+}
+
+.navbar ul.navbar-nav > li.dropdown i {
+    font-size: .9rem;
+}
+
+.navbar ul.navbar-nav > li.dropdown a {
+    font-size: 1.3rem;
+}
+
 .navbar-collapse.show {
     margin-top: 35px;
     background-color: #888888;
@@ -166,6 +178,7 @@ html {
     padding-left: 0;
     list-style: none;
     margin-bottom: 1.8em;
+    line-height: 2.4rem;
 }
 
 #business .box-2 ul li,
@@ -174,7 +187,15 @@ html {
     font-family: 'DINNextLTPro-Light', sans-serif;
     font-size: 1.04rem;
     color: #2155c2;
-    line-height: 2.4rem;
+}
+
+#market .box-2 ul li:nth-child(5) {
+    line-height: 1.4rem;
+    margin-top: 0.5em;
+}
+
+#market .box-2 ul li:nth-child(5) span {
+    margin-left: 1em;
 }
 
 #business .box-2 ul li::before,
@@ -227,7 +248,7 @@ html {
 
     #home h1 {
         text-align: center;
-        padding-top: 1.6em;
+        margin-top: 1.6em;
         font-size: 3rem;
     }
     #home img {
@@ -259,13 +280,13 @@ html {
     #business .box-1,
     #state .box-1,
     #market .box-1 {
-        padding: 3em 2em 3em 2em;
+        padding: 1.5em 2em .5em 2em;
     }
 
     #business .box-2 .box-2-list,
     #state .box-2 .box-2-list,
     #market .box-2 .box-2-list {
-        padding: 1.5em 0.7em 1.5em 1.5em;
+        padding: .7em 1.5em .7em 1.5em;
     }
     
 }
@@ -317,11 +338,11 @@ html {
     }
 
     #home {
-        margin-bottom: 2.8em;
+        margin-bottom: 0;
     }
     
     #home h1 {
-        padding-top: 2.7em;
+        margin-top: 2.5em;
         font-size: 4.4rem;
     }
     #home img {
@@ -344,7 +365,7 @@ html {
     }
     
     #business .col-md-6:nth-child(2) {
-        padding-top: 6.5em;
+        padding-top: 9.5em;
         padding-left: 0;
         padding-right: 9em;
     }
@@ -408,7 +429,6 @@ html {
 }
 
 @include media-breakpoint-up(xl) {
-
 
     .navbar img {
         width: 13%;
