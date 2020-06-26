@@ -12195,24 +12195,25 @@ html {
   }
   /* line 354, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #home .input-group {
+    padding-bottom: 3em;
     width: 330px;
   }
-  /* line 358, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 359, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #business, #state, #market {
     padding-bottom: 11em;
   }
-  /* line 362, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 363, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #business .col-md-6:nth-child(1) {
     padding-top: 13.2em;
     padding-right: 0;
   }
-  /* line 367, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 368, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #business .col-md-6:nth-child(2) {
     padding-top: 9.5em;
     padding-left: 0;
     padding-right: 9em;
   }
-  /* line 373, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 374, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #business h2,
   #market h2 {
     font-size: 2.3rem;
@@ -12222,24 +12223,24 @@ html {
     padding-left: 4.4em;
     margin-bottom: 0.5em;
   }
-  /* line 383, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 384, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #business .box-1,
   #market .box-1 {
     margin-left: 6.8em;
     padding: 4.2em 2.8em 3.2em 3.1em;
   }
-  /* line 389, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 390, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #state .col-md-6:nth-child(1) {
     padding-top: 6em;
     padding-right: 0;
   }
-  /* line 394, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 395, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #state .col-md-6:nth-child(2) {
     padding-top: 9.5em;
     padding-left: 0;
     padding-right: 9em;
   }
-  /* line 400, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 401, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #state h2 {
     font-size: 2.3rem;
     text-align: left;
@@ -12249,20 +12250,20 @@ html {
     /*padding-right: 3em;*/
     margin-bottom: 0.5em;
   }
-  /* line 410, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 411, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #state .box-1 {
     padding: 5.2em 3.1em 4.2em 4.1em;
   }
-  /* line 414, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 415, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #state .box-2 {
     margin-left: 8.5em;
   }
-  /* line 418, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 419, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #market .col-md-6:nth-child(1) {
     padding-top: 9em;
     padding-right: 0;
   }
-  /* line 423, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 424, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #market .col-md-6:nth-child(2) {
     padding-top: 6.5em;
     padding-left: 0;
@@ -12271,18 +12272,18 @@ html {
 }
 
 @media (min-width: 1200px) {
-  /* line 433, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 434, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   .navbar img {
     width: 13%;
     top: 1.2em;
     left: 1.6em;
     margin-left: 1.6em;
   }
-  /* line 440, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 441, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   .navbar ul.navbar-nav > li {
     padding: 23px 11px 18px 11px;
   }
-  /* line 444, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 445, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #business .box-2 .box-2-list,
   #state .box-2 .box-2-list,
   #market .box-2 .box-2-list {
