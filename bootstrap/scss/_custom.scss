@@ -53,6 +53,18 @@ html {
     font-size: 1.3rem;
 }
 
+.navbar ul.navbar-nav .dropdown-menu {
+    background-color: #2155c2;
+    min-width: 0;
+}
+
+.navbar ul.navbar-nav .dropdown-menu a {
+    color: white;
+}
+.navbar ul.navbar-nav .dropdown-menu a:hover {
+    background-color: #ad110b;
+}
+
 .navbar-collapse.show {
     margin-top: 35px;
     background-color: #888888;
@@ -337,6 +349,16 @@ html {
         border: none;
     }
 
+    /*
+    .navbar ul.navbar-nav .dropdown-menu {
+        left: -15px;
+    }
+
+    .navbar ul.navbar-nav .dropdown-menu img {
+        /*margin-top: -9px;
+        margin-left: 22px;
+    }
+*/
     #home {
         margin-bottom: 0;
     }
