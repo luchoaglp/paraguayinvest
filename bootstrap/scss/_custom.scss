@@ -112,7 +112,7 @@ html {
     padding-right: 28px;
 }
 
-#business, #market {
+#business {
     background-image: url('../img/business-background.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -135,7 +135,8 @@ html {
 
 #business .box-1,
 #state .box-1,
-#market .box-1 {
+#market .box-1,
+#knowledge .box-1 {
     color: $white;
     background-color: #2155c2;
     -webkit-box-shadow: 0px 11px 7px -6px rgba(143,143,143,1);
@@ -148,7 +149,8 @@ html {
     font-size: 1.3rem;
 }
 #business .box-1 p,
-#market .box-1 p {
+#market .box-1 p,
+#knowledge .box-1 p {
     font-family: 'DINNextLTPro-Light', sans-serif;
     font-size: 1.3rem;
     line-height: 2rem;
@@ -156,8 +158,10 @@ html {
 
 #business .box-2,
 #state .box-2,
-#market .box-2 {
-    border-top-left-radius: 80px;
+#market .box-2,
+#knowledge .box-2 {
+    background-color: #e6e7e8;
+    border-top-left-radius: 55px;
     -webkit-box-shadow: 6px 5px 19px 5px rgba(186,186,186,1);
     -moz-box-shadow: 6px 5px 19px 5px rgba(186,186,186,1);
     box-shadow: 6px 5px 19px 5px rgba(186,186,186,1);
@@ -166,15 +170,16 @@ html {
 #business .box-2 img,
 #state .box-2 img,
 #market .box-2 img {
-    border-top-left-radius: 70px;
+    border-top-left-radius: 55px;
 }
-
+/*
 #business .box-2 .box-2-list,
 #state .box-2 .box-2-list,
-#market .box-2 .box-2-list {
+#market .box-2 .box-2-list,
+#knowledge .box-2 .box-2-list {
     background-color: #e6e7e8;
 }
-
+*/
 #business .box-2 .box-2-list div.box-2-divider,
 #state .box-2 .box-2-list div.box-2-divider,
 #market .box-2 .box-2-list div.box-2-divider {
@@ -184,9 +189,17 @@ html {
     margin: 1em 0 1.5em 5px;
 }
 
+#knowledge .box-2 .box-2-list div.box-2-divider {
+    border: 1px solid #2155c2;
+    text-align: left;
+    max-width: 55px;
+    margin: .5em 0 .9em 5px;
+}
+
 #business .box-2 ul,
 #state .box-2 ul,
-#market .box-2 ul {
+#market .box-2 ul,
+#knowledge .box-2 ul {
     padding-left: 0;
     list-style: none;
     margin-bottom: 1.8em;
@@ -195,7 +208,8 @@ html {
 
 #business .box-2 ul li,
 #state .box-2 ul li,
-#market .box-2 ul li {
+#market .box-2 ul li,
+#knowledge .box-2 ul li {
     font-family: 'DINNextLTPro-Light', sans-serif;
     font-size: 1.04rem;
     color: #2155c2;
@@ -212,7 +226,8 @@ html {
 
 #business .box-2 ul li::before,
 #state .box-2 ul li::before,
-#market .box-2 ul li::before {
+#market .box-2 ul li::before,
+#knowledge .box-2 ul li::before {
     content: "•"; 
     padding-right: 5px;
     font-size: 1.7rem;
@@ -227,13 +242,28 @@ html {
     background-size: cover;
 }
 
-#state .box-1 p span, #market .box-1 span  {
+#state .box-1 p span, #market .box-1 span,
+#knowledge .box-1 p span, #market .box-1 span  {
     font-family: 'DINNextLTPro-Bold', sans-serif;
 }
-#state .box-1 p {
+#state .box-1 p  {
     font-family: 'DINNextLTPro-Light', sans-serif;
     line-height: 2.3rem;
     font-size: 1.3rem;
+}
+
+#knowledge .box-1 p  {
+    font-family: 'DINNextLTPro-Light', sans-serif;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+.market-container {
+    background-image: url('../img/market-container.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* 1 */
@@ -378,7 +408,7 @@ html {
         width: 330px;
     }
 
-    #business, #state, #market {
+    #business, #state, #market, .market-container {
         padding-bottom: 11em;
     }
 
@@ -449,6 +479,29 @@ html {
         padding-right: 9em;
     }
 
+    #knowledge .col-md-5:nth-child(2) {
+        margin-left: -4.5em;
+        padding-top: 2em;
+        padding-right: 2em;
+    }
+
+    #knowledge .box-1 {
+        margin-left: 6.8em;
+    }
+
+    #knowledge .box-1 p:nth-child(1) {
+        padding: 5em 3.5em .5em 3.1em;
+    }
+    #knowledge .box-1 p:nth-child(2) {
+        padding: .5em 2em 5em 3.1em;
+    }
+
+    /*
+    #knowledge .col-md-6:nth-child(1) {
+        padding-left: 0;
+    }
+    */
+
 }
 
 @include media-breakpoint-up(xl) {
@@ -468,6 +521,14 @@ html {
     #state .box-2 .box-2-list,
     #market .box-2 .box-2-list {
         padding: 2em 4em 2em 4.7em;
+    }
+
+    #knowledge .box-2 .box-2-list {
+        padding: 1.5em 4em 1em 3.5em;
+    }
+
+    #knowledge .box-2 .box-2-list ul {
+        margin-bottom: 1em;
     }
 
 }
