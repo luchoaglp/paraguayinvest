@@ -306,7 +306,9 @@ html {
 
     #business .col-md-6:nth-child(1),
     #state .col-md-6:nth-child(1),
-    #market .col-md-6:nth-child(1) {
+    #market .col-md-6:nth-child(1),
+    #market .col-md-6:nth-child(2),
+    #knowledge .col-md-7:nth-child(1) {
         padding-bottom: 1em;
     }
     
@@ -321,13 +323,15 @@ html {
 
     #business .box-1,
     #state .box-1,
-    #market .box-1 {
+    #market .box-1,
+    #knowledge .box-1 {
         padding: 1.5em 2em .5em 2em;
     }
 
     #business .box-2 .box-2-list,
     #state .box-2 .box-2-list,
-    #market .box-2 .box-2-list {
+    #market .box-2 .box-2-list,
+    #knowledge .box-2 .box-2-list {
         padding: .7em 1.5em .7em 1.5em;
     }
     
@@ -490,10 +494,10 @@ html {
     }
 
     #knowledge .box-1 p:nth-child(1) {
-        padding: 5em 3.5em .5em 3.1em;
+        padding: 3.8em 1.9em .5em 1.7em;
     }
     #knowledge .box-1 p:nth-child(2) {
-        padding: .5em 2em 5em 3.1em;
+        padding: .5em .5em 3.5em 1.7em;
     }
 
     /*
