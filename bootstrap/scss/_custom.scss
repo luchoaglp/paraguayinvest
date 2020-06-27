@@ -91,6 +91,7 @@ html {
     font-family: 'DINNextLTPro-Regular', sans-serif;
 }
 
+/*
 #home .input-group input[type=text] {
     border-radius: 0;
     border-top-left-radius: 15px;
@@ -101,15 +102,33 @@ html {
 #home .input-group input[type=text]::placeholder {
     color: #2155c2;
 }
-
-#home .input-group-append .input-group-text {
+*/
+#home .btn {
+    padding: 0 0 0 1.3em;
+    border: 0;
+    border-radius: 0;
+    border-top-left-radius: 17px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color: $white;
+    letter-spacing: 1.5px;
+    color: #2155c2;
+    margin-bottom: 34px;
+}
+#home .btn i {
     border-radius: 0;
     border: 0;
     background-color: #ad110b;
     font-size: 1.8rem;
     color: $white;
-    padding-left: 28px;
-    padding-right: 28px;
+    padding: 20px 25px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+#home .btn:hover {
+    transition: 2s opacity;
+    opacity: .7;
 }
 
 #business {
@@ -299,11 +318,15 @@ html {
         padding-bottom: 3.2em;
     }
 
+    #home .row .col-md-12 {
+        text-align: center;
+    }
+    /*
     #home .input-group {
         padding-bottom: 2.5em;
         width: 330px;
     }
-
+    */
     #business .col-md-6:nth-child(1),
     #state .col-md-6:nth-child(1),
     #market .col-md-6:nth-child(1),
@@ -362,10 +385,15 @@ html {
         text-align: left;
     }
 
+    #home .row .col-md-12 {
+        text-align: left;
+    }
+
+    /*
     #home .input-group {
         width: 330px;
     }
-
+    */
     
 }
 /* 4 */
@@ -397,11 +425,12 @@ html {
         padding-bottom: 3.2em;
     }
 
+    /*
     #home .input-group {
         padding-bottom: 3em;
         width: 330px;
     }
-
+    */
     #business, #state, .market-container {
         padding-bottom: 10em;
     }
