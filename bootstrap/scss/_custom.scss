@@ -285,6 +285,50 @@ html {
     background-size: cover;
 }
 
+#proposals h3 {
+    font-family: 'DINNextLTPro-Light', sans-serif;
+    font-size: 2.35rem;
+    padding-left: .5em;
+    padding-top: 3em;
+    letter-spacing: 3.4px;
+    line-height: 2.55rem;
+    margin-bottom: .3em;
+}
+
+#proposals h3 span {
+    color: #8c1c1d;
+}
+
+#proposals .btn {
+    padding: 0 0 0 1.3em;
+    border: 0;
+    border-radius: 0;
+    margin-left: .75em;
+    padding-top: .2em;
+    border-top-left-radius: 17px;
+    -webkit-box-shadow: 10px 10px 8px -4px rgba(194,194,194,1);
+    -moz-box-shadow: 10px 10px 8px -4px rgba(194,194,194,1);
+    box-shadow: 10px 10px 8px -4px rgba(194,194,194,1);
+    letter-spacing: 1.5px;
+    margin-bottom: 34px;
+    font-size: 1.65rem;
+}
+#proposals .btn i {
+    margin-top: -7px;
+    vertical-align: middle;
+    border-radius: 0;
+    border: 0;
+    font-size: 1.8rem;
+    color: $white;
+    padding: 14px 35px 11px 5px;
+    margin-left: 5px;
+    font-size: 2.6rem;
+}
+#proposals .btn:hover {
+    transition: 2s opacity;
+    opacity: .7;
+}
+
 /* 1 */
 @include media-breakpoint-up(xs) {
 
@@ -431,7 +475,7 @@ html {
         width: 330px;
     }
     */
-    #business, #state, .market-container {
+    #business, #state, .market-container, #proposals {
         padding-bottom: 10em;
     }
 
