@@ -8,6 +8,7 @@
     <title>Paraguayinvest</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha256-0n6YDYIexWJmHyTKtRRHTXvoanQrXpFfpsfv0h53qvk=" crossorigin="anonymous" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -213,8 +214,19 @@
             <h3>Encontrá<br> más propuestas innovadoras en: <span>@paraguayinvest</span></h3>
             <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">SEGUINOS <i class="fab fa-instagram"></i></a>
           </div>
-          <div class="col-md-6">
-            
+          <div class="col-md-8">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/slider/1.png" alt="1"></div>
+                <div class="swiper-slide"><img src="./img/slider/2.png" alt="2"></div>
+                <div class="swiper-slide"><img src="./img/slider/3.png" alt="3"></div>
+                <div class="swiper-slide"><img src="./img/slider/4.png" alt="4"></div>
+                <div class="swiper-slide"><img src="./img/slider/5.png" alt="5"></div>
+                <div class="swiper-slide"><img src="./img/slider/6.png" alt="6"></div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -224,6 +236,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="./js/swiper.min.js"></script>
 <script>
 $(function() {
 
@@ -237,7 +250,7 @@ $(function() {
   setNavbarLinksColor = () => {
 
     if(xPos > homeHeight - xOffset) {
-      $navbar.css('background-color', 'white');
+      $navbar.css('background-color', '#fcfcfc');
       $navbarLinks.css('color', '#2155c2');
     } else {
       $navbar.css('background-color', 'transparent');
@@ -265,6 +278,20 @@ $(function() {
   $(window).scroll(function(ev) {
     xPos = $(window).scrollTop();
     setNavbarLinksColor();
+  });
+
+  const swiper = new Swiper('.swiper-container', {
+    loop: true,
+    slidesPerView: 4,
+    spaceBetween: -60,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
   });
     
 });
