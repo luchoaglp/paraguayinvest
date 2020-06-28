@@ -285,6 +285,13 @@ html {
     background-size: cover;
 }
 
+#proposals {
+    background-image: url('../img/proposals-background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 #proposals h3 {
     font-family: 'DINNextLTPro-Light', sans-serif;
 }
@@ -580,7 +587,9 @@ html {
     #knowledge .box-1 p:nth-child(2) {
         padding: .5em .5em 3.5em 1.7em;
     }
+    
     #proposals h3 {
+        margin-top: 3.6em;
         font-size: 2.35rem;
         padding-left: .5em;
         padding-top: .5em;
