@@ -283,7 +283,7 @@ $(function() {
   const swiper = new Swiper('.swiper-container', {
     loop: true,
     slidesPerView: 5,
-    spaceBetween: 30,
+    /*spaceBetween: 30,*/
     autoplay: {
       delay: 2500,
       disableOnInteraction: false
@@ -292,6 +292,23 @@ $(function() {
         el: '.swiper-pagination',
         clickable: true,
     },
+    breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 5
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 2
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 5,
+      spaceBetween: 30
+    }
+  }
   });
     
 });
