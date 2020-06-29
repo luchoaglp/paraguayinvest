@@ -333,9 +333,11 @@ body {
 
 #proposals .container-fluid {
     margin-right: 0;
-   
 }
 
+#proposals .container-fluid .col-md-8 {
+    padding-right: 0;
+}
 
 .swiper-container {
     border-top-left-radius: 60px;
@@ -627,7 +629,6 @@ body {
     }
 
     #proposals .container-fluid .col-md-8 {
-        padding-right: 0;
         padding-left: 2em;
     }
     

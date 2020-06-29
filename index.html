@@ -282,10 +282,10 @@ $(function() {
 
   const swiper = new Swiper('.swiper-container', {
     loop: true,
-    slidesPerView: 5,
+    /*slidesPerView: 5,*/
     /*spaceBetween: 30,*/
     autoplay: {
-      delay: 2500,
+      delay: 3000,
       disableOnInteraction: false
     },
     pagination: {
@@ -296,7 +296,7 @@ $(function() {
     // when window width is >= 320px
     320: {
       slidesPerView: 2,
-      spaceBetween: 5
+      spaceBetween: -5
     },
     // when window width is >= 480px
     480: {
