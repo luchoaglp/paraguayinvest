@@ -4,7 +4,7 @@
       <wsp:CrearCliente>
          <wsp:Usuario>Usuario</wsp:Usuario>
          <wsp:oCliente>
-            <wsp:ClienteID>1</wsp:ClienteID>
+            <wsp:ClienteID>123456</wsp:ClienteID>
             <wsp:Nombre>Nombre</wsp:Nombre>
             <wsp:NombreLegal>Nombre Legal</wsp:NombreLegal>
             <wsp:EsClienteGlobal>true</wsp:EsClienteGlobal>
