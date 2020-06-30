@@ -356,10 +356,10 @@ body {
     background-size: cover;
     background-color: #2155c2;
     color: $white;
+    margin-bottom: 5em;
 }
 
 #contact h2 {
-    padding-top: 4.75em;
     font-size: 2.3rem;
     letter-spacing: 5.7px;
     margin-bottom: 0;
@@ -369,7 +369,56 @@ body {
 #contact p {
     font-family: 'DINNextLTPro-Light', sans-serif;
     font-size: 1.3rem;
-    letter-spacing: 1.6px;
+    letter-spacing: 1.55px;
+}
+
+#contact input[type=text], #contact input[type=email] {
+    font-family: 'DINNextLTPro-Light', sans-serif;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    box-sizing: content-box;
+    background-color: transparent;
+    color: $white;
+    font-size: 1.3rem;
+    padding-left: .2em;
+    padding-bottom: 0;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#contact input[type=text]:focus, #contact input[type=email]:focus {
+    box-shadow: 0 1px 0 0 #2155c2;
+    border-bottom: 1px solid $white;
+}
+
+#contact input[type=text]::placeholder, #contact input[type=email]::placeholder {
+    color: $white;
+    opacity: .85;
+}
+
+#contact label {
+    font-family: 'DINNextLTPro-Light', sans-serif;
+    margin: 0;
+    font-size: 1.3rem;
+    padding-left: 1.2em;
+    opacity: .85;
+}
+
+#contact textarea {
+    margin: 0 auto;
+    font-family: 'DINNextLTPro-Light', sans-serif;
+    background-color: #3f6cca;
+    width: 91%;
+    border-radius: 0;
+    margin: 0;
+    font-size: 1.3rem;
+    color: $white;
+    margin-left: 1.1em;
+    border: none;
 }
 
 /* 1 */
@@ -466,6 +515,10 @@ body {
     #proposals {
         padding-bottom: 3em;
     }
+
+    #contact h2 {
+        padding-top: 1.5em;
+    }
     
 }
 
@@ -509,6 +562,10 @@ body {
     #proposals .btn {
         width: 9.75em;
     }
+
+    #contact h2 {
+        padding-top: 4.75em;
+    }
     
 }
 /* 4 */
@@ -546,7 +603,7 @@ body {
         width: 330px;
     }
     */
-    #business, #state, .market-container, #proposals {
+    #business, #state, .market-container, #proposals, #contact {
         padding-bottom: 10em;
     }
 
