@@ -154,7 +154,8 @@ body {
 #business h2,
 #state h2,
 #market h2,
-#clients h2 { 
+#clients h2,
+#backup h2 { 
     font-family: 'DINNextLTPro-Light', sans-serif;
     color: #8c1c1d;
 }
@@ -500,6 +501,7 @@ body {
 }
 
 #clients {
+    background-color: #f3f3f3;
     background-image: url('../img/clients-background.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -535,6 +537,19 @@ body {
 
 #clients .box-2 img:nth-child(4) {
     width: 22%;
+}
+
+#backup {
+    background-image: url('../img/backup-background.png');
+    padding-top: 6em;
+    background-color: #f3f3f3;
+}
+
+#backup p {
+    font-family: 'DINNextLTPro-Light', sans-serif;
+    color:#3f6cca;
+    text-align: justify;
+    padding-bottom: 1em;
 }
 
 /* 1 */
@@ -739,7 +754,7 @@ body {
         width: 330px;
     }
     */
-    #business, #state, .market-container, #proposals, #clients {
+    #business, #state, .market-container, #proposals, #backup {
         padding-bottom: 10em;
     }
 
@@ -749,6 +764,10 @@ body {
 
     #market {
         padding-bottom: 7em;
+    }
+
+    #clients {
+        padding-bottom: 17em;
     }
 
     #business .col-md-6:nth-child(1) {
@@ -763,7 +782,7 @@ body {
     }
 
     #business h2,
-    #market h2 {
+    #market h2{
         font-size: 2.3rem;
         text-align: left;
         line-height: 2.1rem;
@@ -773,7 +792,7 @@ body {
     }
 
     #business .box-1,
-    #market .box-1{
+    #market .box-1 {
         margin-left: 6.8em;
         padding: 4.2em 2.8em 3.2em 3.1em;
     }
@@ -917,6 +936,28 @@ body {
     #clients .box-2 {
         margin-left: -3em;
     }
+
+    #backup h2 {
+        font-size: 2.3rem;
+        line-height: 2.1rem;
+        letter-spacing: 7px;
+        margin-bottom: 1.3em;
+    }
+
+    #backup .col-md-6:nth-child(1) {
+        padding-left: 6em;
+        padding-right: 3em;
+    }
+
+    #backup .col-md-6:nth-child(2) {
+        padding-left: 1em;
+        padding-right: 6em;
+    }
+
+    #backup p {
+        font-size: 1.27rem;
+    }
+    
 
 }
 
