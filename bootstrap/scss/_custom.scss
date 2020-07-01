@@ -295,7 +295,7 @@ body {
     background-size: cover;
 }
 
-#proposals, #clients {
+#proposals {
     background-image: url('../img/proposals-background.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -499,13 +499,20 @@ body {
     transform: rotate(45deg);
 }
 
+#clients {
+    background-image: url('../img/clients-background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #clients .box-1 h6 {
     line-height: 2rem;
 }
 
 #clients .box-2 {
     padding-bottom: 2.4em;
-    margin-right: -1em;
 }
 
 #clients .box-2 img {
@@ -548,7 +555,7 @@ body {
         border-bottom: 1px dotted #2155c2;
     }
 
-    #home, #business, #state, #contact {
+    #home, #business, #state, #contact, #clients {
         padding-bottom: 1.5em;
     }
 
@@ -576,13 +583,15 @@ body {
     #state .col-md-6:nth-child(1),
     #market .col-md-6:nth-child(1),
     #market .col-md-6:nth-child(2),
-    #knowledge .col-md-7:nth-child(1) {
+    #knowledge .col-md-7:nth-child(1),
+    #clients .col-md-6:nth-child(1) {
         padding-bottom: 1em;
     }
     
     #business h2,
     #state h2,
-    #market h2 {
+    #market h2,
+    #clients h2 {
         font-size: 1.8rem;
         text-align: center;
         line-height: 2.1rem;
@@ -592,7 +601,8 @@ body {
     #business .box-1,
     #state .box-1,
     #market .box-1,
-    #knowledge .box-1 {
+    #knowledge .box-1,
+    #clients .box-1 {
         padding: 1.5em 2em .5em 2em;
     }
 
@@ -623,6 +633,10 @@ body {
 
     #proposals {
         padding-bottom: 2em;
+    }
+
+    #contact {
+        margin-bottom: 1.5em;
     }
 
     #contact h2 {
@@ -725,7 +739,7 @@ body {
         width: 330px;
     }
     */
-    #business, #state, .market-container, #proposals {
+    #business, #state, .market-container, #proposals, #clients {
         padding-bottom: 10em;
     }
 
@@ -851,6 +865,10 @@ body {
         padding: 3.2em 1.5em 2.7em 1.05em;
     }
 
+    #contact {
+        margin-bottom: 0;
+    }
+
     #contact textarea {
         margin: 0 auto;
         width: 91%;
@@ -876,6 +894,10 @@ body {
         padding-top: 13.5em;
         padding-left: 0;
         padding-right: 9em;
+    }
+
+    #clients .box-2 {
+        margin-right: -2.25em;
     }
 
     #clients h2 {
