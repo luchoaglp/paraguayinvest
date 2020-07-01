@@ -541,7 +541,7 @@ body {
 
 #backup {
     background-image: url('../img/backup-background.png');
-    padding-top: 6em;
+    padding-top: 1em;
     background-color: #f3f3f3;
 }
 
@@ -938,6 +938,7 @@ body {
     }
 
     #backup h2 {
+        padding-top: 3em;
         font-size: 2.3rem;
         line-height: 2.1rem;
         letter-spacing: 7px;

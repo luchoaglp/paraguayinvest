@@ -12425,7 +12425,7 @@ body {
 /* line 542, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
 #backup {
   background-image: url("../img/backup-background.png");
-  padding-top: 6em;
+  padding-top: 1em;
   background-color: #f3f3f3;
 }
 
@@ -12843,50 +12843,51 @@ body {
   }
   /* line 940, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #backup h2 {
+    padding-top: 3em;
     font-size: 2.3rem;
     line-height: 2.1rem;
     letter-spacing: 7px;
     margin-bottom: 1.3em;
   }
-  /* line 947, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 948, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #backup .col-md-6:nth-child(1) {
     padding-left: 6em;
     padding-right: 3em;
   }
-  /* line 952, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 953, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #backup .col-md-6:nth-child(2) {
     padding-left: 1em;
     padding-right: 6em;
   }
-  /* line 957, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 958, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #backup p {
     font-size: 1.27rem;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 966, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 967, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   .navbar img {
     width: 13%;
     top: 1.2em;
     left: 1.6em;
     margin-left: 1.6em;
   }
-  /* line 973, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 974, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   .navbar ul.navbar-nav > li {
     padding: 23px 11px 18px 11px;
   }
-  /* line 977, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 978, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #business .box-2 .box-2-list,
   #state .box-2 .box-2-list,
   #market .box-2 .box-2-list {
     padding: 2em 4em 2em 4.7em;
   }
-  /* line 983, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 984, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #knowledge .box-2 .box-2-list {
     padding: 1.5em 4em 1em 3.5em;
   }
-  /* line 987, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
+  /* line 988, /var/www/html/paraguayinvest/bootstrap/scss/_custom.scss */
   #knowledge .box-2 .box-2-list ul {
     margin-bottom: 1em;
   }
