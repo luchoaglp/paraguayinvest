@@ -670,6 +670,10 @@ body {
         top: 6px;
         left: 18px;
     }
+
+    #backup p {
+        padding-bottom: 0;
+    }
     
 }
 
@@ -767,7 +771,7 @@ body {
     }
 
     #clients {
-        padding-bottom: 17em;
+        padding-bottom: 14em;
     }
 
     #business .col-md-6:nth-child(1) {
@@ -957,8 +961,8 @@ body {
 
     #backup p {
         font-size: 1.27rem;
+        padding-bottom: 1em;
     }
-    
 
 }
 
