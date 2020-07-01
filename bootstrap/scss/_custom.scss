@@ -503,11 +503,31 @@ body {
     line-height: 2rem;
 }
 
+#clients .box-2 {
+    padding-bottom: 2.4em;
+    margin-right: -1em;
+}
+
 #clients .box-2 img {
     display: block;
     margin: 0 auto;
-    width: 25%;
-    padding: 2em 0;
+    padding: 2.25em 0 .75em 0;
+}
+
+#clients .box-2 img:nth-child(1) {
+    width: 34%;
+}
+
+#clients .box-2 img:nth-child(2) {
+    width: 48%;
+}
+
+#clients .box-2 img:nth-child(3) {
+    width: 19%;
+}
+
+#clients .box-2 img:nth-child(4) {
+    width: 22%;
 }
 
 /* 1 */
