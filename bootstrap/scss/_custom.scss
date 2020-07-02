@@ -587,13 +587,25 @@ footer .social  {
     padding: 2em 0;
 }
 
-footer .social img {
+footer .social a img {
     width: 4.4%;
     padding: 0 .2em;
 }
 
-footer .social img:hover {
+footer a:hover {
     opacity: .8;
+}
+
+footer .footer-nav {
+    text-align: center;
+    padding-top: 1em;
+}
+
+footer .footer-nav a {
+    color: $white;
+    font-size: .75rem;
+    padding: 0 .7em;
+    text-decoration: underline;
 }
 
 /* 1 */
