@@ -608,6 +608,12 @@ footer .footer-nav a {
     text-decoration: underline;
 }
 
+footer .copy p {
+    text-align: center;
+    font-size: .75rem;
+    padding: 2em 0;
+}
+
 /* 1 */
 @include media-breakpoint-up(xs) {
 
