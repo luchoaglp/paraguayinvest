@@ -355,6 +355,10 @@ body {
     padding: 3.2em 1.5em 2.7em 1.05em;
 }
 
+.swiper-container .swiper-wrapper .swiper-slide img {
+    width: 146px;
+}
+
 #contact {
     background-image: url('../img/contact-background.png');
     -webkit-background-size: cover;
@@ -553,13 +557,18 @@ body {
 }
 
 footer {
-    background-image: url('../img/contact-background.png');
+    background-image: url('../img/footer-background.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-color: #2155c2;
     color: $white;
+}
+
+footer img:nth-child(1) {
+    width: 14%;
+    padding: 4em 0;
 }
 
 footer .box-1 p, footer .box-2 p {
@@ -575,10 +584,11 @@ footer .box-1 p span, footer .box-2 p span {
 footer .social  {
     margin: 0 auto 0 auto;
     text-align: center;
+    padding: 2em 0;
 }
 
 footer .social img {
-    width: 5%;
+    width: 4.4%;
     padding: 0 .2em;
 }
 
