@@ -592,6 +592,10 @@ footer .social img {
     padding: 0 .2em;
 }
 
+footer .social img:hover {
+    opacity: .8;
+}
+
 /* 1 */
 @include media-breakpoint-up(xs) {
 
