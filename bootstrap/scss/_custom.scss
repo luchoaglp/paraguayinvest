@@ -552,6 +552,36 @@ body {
     padding-bottom: 1em;
 }
 
+footer {
+    background-image: url('../img/contact-background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #2155c2;
+    color: $white;
+}
+
+footer .box-1 p, footer .box-2 p {
+    font-family: 'DINNextLTPro-Regular', sans-serif;
+    opacity: .9;
+}
+
+footer .box-1 p span, footer .box-2 p span {
+    font-family: 'DINNextLTPro-Bold', sans-serif;
+    letter-spacing: 2.5px;  
+}
+
+footer .social  {
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+footer .social img {
+    width: 5%;
+    padding: 0 .2em;
+}
+
 /* 1 */
 @include media-breakpoint-up(xs) {
 
@@ -893,14 +923,15 @@ body {
     }
 
     #contact textarea {
+        opacity: .8;
         margin: 0 auto;
-        width: 91%;
-        margin: 0;
-        margin-left: 1.1em;
+        width: 93%;
+        /*margin: 0;*/
+        /*margin-left: 1.1em;*/
     }
 
     #contact label {
-        padding-left: 1.2em;
+        padding-left: 4%;
     }
 
     #contact .new .form-group input:checked + label:after {
@@ -962,6 +993,21 @@ body {
     #backup p {
         font-size: 1.27rem;
         padding-bottom: 1em;
+    }
+
+    footer .box-1 {
+        padding-left: 5em;
+    }
+
+    footer .box-2 {
+        padding-left: 3.5em;
+    }
+
+    footer .divider {
+        background-color: white;
+        width: 2px;
+        margin-top: 1em;
+        height: 9.5em;
     }
 
 }
