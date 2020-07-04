@@ -46,14 +46,12 @@
   font-style: normal;
 }
 
-/* line 19, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* line 25, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -61,12 +59,10 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* line 35, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-/* line 46, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 body {
   margin: 0;
   font-family: "DINNextLTPro-Regular", sans-serif;
@@ -78,31 +74,26 @@ body {
   background-color: #fff;
 }
 
-/* line 66, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
 
-/* line 76, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
 
-/* line 92, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
-/* line 101, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-/* line 114, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -112,14 +103,12 @@ abbr[data-original-title] {
   text-decoration-skip-ink: none;
 }
 
-/* line 123, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
 }
 
-/* line 129, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 ol,
 ul,
 dl {
@@ -127,7 +116,6 @@ dl {
   margin-bottom: 1rem;
 }
 
-/* line 136, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 ol ol,
 ul ul,
 ol ul,
@@ -135,34 +123,28 @@ ul ol {
   margin-bottom: 0;
 }
 
-/* line 143, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 dt {
   font-weight: 700;
 }
 
-/* line 147, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 dd {
   margin-bottom: .5rem;
   margin-left: 0;
 }
 
-/* line 152, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 blockquote {
   margin: 0 0 1rem;
 }
 
-/* line 156, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 b,
 strong {
   font-weight: bolder;
 }
 
-/* line 161, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 small {
   font-size: 80%;
 }
 
-/* line 170, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 sub,
 sup {
   position: relative;
@@ -171,42 +153,35 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 178, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 sub {
   bottom: -.25em;
 }
 
-/* line 179, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 sup {
   top: -.5em;
 }
 
-/* line 186, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 a {
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
 }
 
-/* line 13, /var/www/html/paraguayinvest/bootstrap/scss/mixins/_hover.scss */
 a:hover {
   color: #0056b3;
   text-decoration: underline;
 }
 
-/* line 202, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 a:not([href]) {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 13, /var/www/html/paraguayinvest/bootstrap/scss/mixins/_hover.scss */
 a:not([href]):hover {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 217, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 pre,
 code,
 kbd,
@@ -215,7 +190,6 @@ samp {
   font-size: 1em;
 }
 
-/* line 225, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -223,29 +197,24 @@ pre {
   -ms-overflow-style: scrollbar;
 }
 
-/* line 242, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 figure {
   margin: 0 0 1rem;
 }
 
-/* line 252, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 img {
   vertical-align: middle;
   border-style: none;
 }
 
-/* line 257, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 svg {
   overflow: hidden;
   vertical-align: middle;
 }
 
-/* line 269, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 table {
   border-collapse: collapse;
 }
 
-/* line 273, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -254,29 +223,24 @@ caption {
   caption-side: bottom;
 }
 
-/* line 281, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 th {
   text-align: inherit;
 }
 
-/* line 292, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
 }
 
-/* line 301, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 button {
   border-radius: 0;
 }
 
-/* line 310, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-/* line 315, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 input,
 button,
 select,
@@ -288,29 +252,24 @@ textarea {
   line-height: inherit;
 }
 
-/* line 326, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 button,
 input {
   overflow: visible;
 }
 
-/* line 331, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 339, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 [role="button"] {
   cursor: pointer;
 }
 
-/* line 346, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 select {
   word-wrap: normal;
 }
 
-/* line 354, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -318,7 +277,6 @@ button,
   -webkit-appearance: button;
 }
 
-/* line 367, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -326,7 +284,6 @@ button:not(:disabled),
   cursor: pointer;
 }
 
-/* line 374, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -335,20 +292,17 @@ button::-moz-focus-inner,
   border-style: none;
 }
 
-/* line 382, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 input[type="radio"],
 input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 389, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 textarea {
   overflow: auto;
   resize: vertical;
 }
 
-/* line 395, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 fieldset {
   min-width: 0;
   padding: 0;
@@ -356,7 +310,6 @@ fieldset {
   border: 0;
 }
 
-/* line 410, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 legend {
   display: block;
   width: 100%;
@@ -369,53 +322,42 @@ legend {
   white-space: normal;
 }
 
-/* line 422, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 progress {
   vertical-align: baseline;
 }
 
-/* line 427, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 432, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: none;
 }
 
-/* line 445, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 454, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
 }
 
-/* line 463, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 output {
   display: inline-block;
 }
 
-/* line 467, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 summary {
   display: list-item;
   cursor: pointer;
 }
 
-/* line 472, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 template {
   display: none;
 }
 
-/* line 478, /var/www/html/paraguayinvest/bootstrap/scss/_reboot.scss */
 [hidden] {
   display: none !important;
 }
-
-/*# sourceMappingURL=../../css/bootstrap-reboot.map */

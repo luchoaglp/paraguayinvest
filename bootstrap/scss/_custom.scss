@@ -76,12 +76,13 @@ body {
 }
 
 #home {
-    background-image: linear-gradient(to bottom, rgba(0, 145, 255, 0.4), rgba(0, 145, 255, 0.1)), url('../img/background.jpeg');
+    background: linear-gradient(to bottom, rgba(0, 145, 255, 0.4), rgba(0, 145, 255, 0.1)), url('../img/background.jpeg') no-repeat center center/cover;
     /*background-image: url('../img/background.jpeg');*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100vh;
     border-bottom-left-radius: 85px;
     padding-left: 4%;
 }
@@ -137,7 +138,7 @@ body {
 }
 
 #business {
-    background-image: url('../img/business-background.png');
+    background: url('../img/business-background.png') no-repeat center center/cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -557,12 +558,7 @@ body {
 }
 
 footer {
-    background-image: url('../img/footer-background.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: #2155c2;
+    background: #2155c2;
     color: $white;
 }
 
@@ -723,6 +719,14 @@ footer .copy p {
 
     #backup p {
         padding-bottom: 0;
+    }
+
+    footer {
+        background: #2155c2 url('../img/footer-background-mobile.png') no-repeat center bottom/cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     footer img:nth-child(1) {
@@ -1043,6 +1047,14 @@ footer .copy p {
     #backup p {
         font-size: 1.27rem;
         padding-bottom: 1em;
+    }
+
+    footer {
+        background: #2155c2 url('../img/footer-background.png') no-repeat left center/cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     footer .box-1 {
