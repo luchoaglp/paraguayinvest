@@ -525,22 +525,25 @@ body {
 #clients .box-2 img {
     display: block;
     margin: 0 auto;
-    padding: 2.25em 0 .75em 0;
+    padding: 1.4em 0 .8em 0;
 }
 
 #clients .box-2 img:nth-child(1) {
-    width: 34%;
+    width: 22%;
 }
-
 #clients .box-2 img:nth-child(2) {
-    width: 48%;
+    width: 30%;
 }
-
 #clients .box-2 img:nth-child(3) {
-    width: 19%;
+    width: 29%;
 }
-
 #clients .box-2 img:nth-child(4) {
+    width: 30%;
+}
+#clients .box-2 img:nth-child(5) {
+    width: 22%;
+}
+#clients .box-2 img:nth-child(6) {
     width: 22%;
 }
 
