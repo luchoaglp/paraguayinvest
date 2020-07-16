@@ -565,12 +565,12 @@ footer {
     color: $white;
 }
 
-footer .box-1 p, footer .box-2 p {
+footer .box-1 p/*, footer .box-2 p*/ {
     font-family: 'DINNextLTPro-Regular', sans-serif;
     opacity: .9;
 }
 
-footer .box-1 p span, footer .box-2 p span {
+footer .box-1 p span/*, footer .box-2 p span*/ {
     font-family: 'DINNextLTPro-Bold', sans-serif;
     letter-spacing: 2.5px;  
 }
