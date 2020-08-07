@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Tu mejor socio estratégico en Paraguay para el Mercosur."/>
     <meta name="author" content="Luciano Giannelli">
     <link href="./img/favicon.png" type="image/png" rel="icon">
     <title>Paraguay Invest</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha256-0n6YDYIexWJmHyTKtRRHTXvoanQrXpFfpsfv0h53qvk=" crossorigin="anonymous" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css" rel="stylesheet">
     <link href="css/swiper.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
   </head>
@@ -268,13 +270,10 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="box-2">
-              <img src="./img/carrefour.png" class="img-fluid" alt="Carrefour">
-              <img src="./img/gical.png" class="img-fluid" alt="Gical">
-              <img src="./img/logitex.png" class="img-fluid" alt="Logitex">
-              <img src="./img/THN.png" class="img-fluid" alt="THN">
-              <img src="./img/alpargatas.png" class="img-fluid" alt="Alpargatas">
-              <img src="./img/nsa.png" class="img-fluid" alt="NSA">
+            <div class="box-2 p-4">
+              <div class="row">
+                <img src="./img/logos.jpg" class="img-fluid" alt="Clientes">
+              </div>
             </div>
           </div>
         </div>
@@ -322,16 +321,14 @@
       <div class="text-center">
         <img src="./img/logo-footer.png" alt="Paraguay Invest">
       </div>
-      <div class="row">
+      <div class="row pb-3">
         <div class="col-md-12">
           <div class="box-1">
             <p>
-            <span>OFICINA PARAGUAY</span><br>
-            Prof. Chávez 156 casi Sacramento<br>
-            Edificio Enrique Piso 3<br>
-            Tel +595-21-600 857<br>
-            Edificio World Trade Center. Asunción - Paraguay<br>
-            <a href="mailto:contacto@paraguayinvest.com">contacto@paraguayinvest.com</a><br>
+              <span>OFICINA PARAGUAY</span>
+            </p>
+            <p>Edificio World Trade Center. Asunción - Paraguay<br>
+              <a href="mailto:contacto@paraguayinvest.com">contacto@paraguayinvest.com</a>
             </p>
           </div>
         </div>
@@ -341,7 +338,7 @@
           <div class="box-1">
             <p>
             <span>OFICINAS DE RESPRESENTACIÓN</span><br>
-            São Paulo - Buenos-Aires - Santiago - Montevideo
+            <span id="offices">SÃO PAULO - BUENOS AIRES - SANTIAGO - MONTEVIDEO</span>
             </p>
           </div>
         </div>
@@ -366,7 +363,9 @@
           <a href="https://www.linkedin.com/company/paraguay-invest-s-a-?trk=biz-companies-cym" target="_blank" title="Linkedin"><img src="./img/social/linkedin.png" alt="Linkedin"></a>
           <a href="https://www.facebook.com/pyinvest/" target="_blank" title="Facebook"><img src="./img/social/facebook.png" alt="Facebook"></a>
           <a href="https://www.instagram.com/paraguayinvest/" target="_blank" title="Instagram"><img src="./img/social/instagram.png" alt="Instagram"></a>
+          <!--
           <a href="https://api.whatsapp.com/send?phone=59521600857&text=Hola..." target="_blank" title="Whatsapp"><img src="./img/social/whatsapp.png" alt="Whatsapp"></a>
+          -->
         </div>
       </div>
       <div class="row">
@@ -390,6 +389,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script src="./js/swiper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
 <script>
 $(function() {
 
@@ -462,76 +462,86 @@ $(function() {
     }
   });
 
-$("#pi-form").submit(function(e) {
-    e.preventDefault();
-}).validate({
-  rules: {
-    name: {
-      required: true,
-      minlength: 4
-    },
-    email: {
-      required: true,
-      email: true
-    },
-    message: {
-      required: true
-    }
-  },
-  messages: {
-    name: {
-      required: "Por favor ingrese su Nombre y Apellido.",
-      minlength: "Su Nombre y Apellido tiene que tener al menos 4 caracteres."
-    },
-    email: {
-      required: "Por favor ingrese su Email.",
-      email: "Debe ingresar un Email válido."
-    },
-    message: {
-      required: "Por favor deje su Mensaje."
-    }
-  },
-  errorElement: 'span',
-  errorPlacement: function (error, element) {
-    error.addClass('invalid-feedback ml-4');
-    element.closest('.form-group').append(error);
-  },
-  highlight: function (element, errorClass, validClass) {
-    $(element).addClass('is-invalid').addClass('text-white');
-  },
-  unhighlight: function (element, errorClass, validClass) {
-    $(element).removeClass('is-invalid');
-  },
-  submitHandler: function(form) {
-    $.ajax({
-      method: "POST",
-      url: "./api/contact.php",
-      data: { 
-        name: $('#name').val(), 
-        email: $('#email').val(),
-        message: $('#message').val(),
-        info: $('#info').prop('checked') 
+  $("#pi-form").submit(function(e) {
+      e.preventDefault();
+  }).validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 4
+      },
+      email: {
+        required: true,
+        email: true
+      },
+      message: {
+        required: true
       }
-    })
-    .done(function(res) {
-      console.log(res);
-    })
-    .fail(function(jqXHR, textStatus) {
-      console.error(jqXHR, textStatus);
-    });
-    
-  }
-});
-/*
-  $('#submit').click(function() {
-    const name = $('#name').val();
-    const email = $('#email').val();
-    const message = $('#message').val();
-    const info = $('#info').prop('checked');
-
-    console.log(email, name, message, info);
+    },
+    messages: {
+      name: {
+        required: "Por favor ingrese su Nombre y Apellido.",
+        minlength: "Su Nombre y Apellido tiene que tener al menos 4 caracteres."
+      },
+      email: {
+        required: "Por favor ingrese su Email.",
+        email: "Debe ingresar un Email válido."
+      },
+      message: {
+        required: "Por favor deje su Mensaje."
+      }
+    },
+    errorElement: 'span',
+    errorPlacement: function (error, element) {
+      error.addClass('invalid-feedback ml-4');
+      element.closest('.form-group').append(error);
+    },
+    highlight: function (element, errorClass, validClass) {
+      $(element).addClass('is-invalid').addClass('text-white');
+    },
+    unhighlight: function (element, errorClass, validClass) {
+      $(element).removeClass('is-invalid');
+    },
+    submitHandler: function(form) {
+      $.ajax({
+        method: "POST",
+        url: "./api/contact.php",
+        data: { 
+          name: $('#name').val(), 
+          email: $('#email').val(),
+          message: $('#message').val(),
+          info: $('#info').prop('checked') 
+        }
+      })
+      .done(function(res) {
+        const { state, msg } = res;
+          $.confirm({
+          title: 'Confirmación',
+          content: msg,
+          icon: 'fas fa-exclamation-circle',
+          theme: 'modern', 
+          type: state ? 'blue' : 'red',
+          animation: 'rotate',
+          buttons: {   
+            ok: {
+              text: "Ok",
+              btnClass: 'btn-info'
+            }
+          }
+        });
+        if(state) {
+          $('#name').val('');
+          $('#email').val('');
+          $('#message').val('')
+        }
+      })
+      .fail(function(jqXHR, textStatus) {
+        console.error(jqXHR, textStatus);
+      });
+      
+    }
   });
-*/  
+
 });
 </script>
   </body>

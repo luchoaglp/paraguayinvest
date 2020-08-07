@@ -519,34 +519,39 @@ body {
 }
 
 #clients .box-2 {
+    background-color: #fff;
     padding-bottom: 2.4em;
 }
 
 #clients .box-2 img {
     display: block;
     margin: 0 auto;
-    padding: 1.4em 0 .8em 0;
+    padding: .7em;
+}
+/*
+#clients .box-2 div.col1 img:nth-child(1) {
+    width: 52%;
+}
+#clients .box-2 div.col1 img:nth-child(2) {
+    width: 63%;
+}
+#clients .box-2 div.col1  img:nth-child(3) {
+    width: 62%;
+}
+#clients .box-2 div.col1  img:nth-child(4) {
+    width: 48%;
 }
 
-#clients .box-2 img:nth-child(1) {
-    width: 22%;
+#clients .box-2 div.col2 img:nth-child(1) {
+    width: 78%;
 }
-#clients .box-2 img:nth-child(2) {
-    width: 30%;
+#clients .box-2 div.col2 img:nth-child(2) {
+    width: 48%;
 }
-#clients .box-2 img:nth-child(3) {
-    width: 29%;
+#clients .box-2 div.col2 img:nth-child(3) {
+    width: 48%;
 }
-#clients .box-2 img:nth-child(4) {
-    width: 30%;
-}
-#clients .box-2 img:nth-child(5) {
-    width: 22%;
-}
-#clients .box-2 img:nth-child(6) {
-    width: 22%;
-}
-
+*/
 #backup {
     background-image: url('../img/backup-background.png');
     padding-top: 1em;
@@ -584,7 +589,15 @@ footer .social  {
 footer .box-1 a {
     color: $white;
     opacity: .9;
-    
+}
+
+footer #offices {
+    font-family: 'DINNextLTPro-Bold', sans-serif;
+    word-spacing: 5px;
+    display: block;
+    font-size: 1.2rem;
+    padding-top: .5em;
+    opacity: 1;
 }
 
 footer .social a img {
@@ -714,12 +727,12 @@ footer .copy p {
         padding-bottom: 2em;
     }
 
-    #contact {
-        margin-bottom: 1.5em;
+    #clients h2 {
+        padding-top: 1em;
     }
 
     #contact h2 {
-        padding-top: 1.5em;
+        padding-top: 3em;
     }
 
     #contact label {
