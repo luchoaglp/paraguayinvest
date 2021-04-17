@@ -64,9 +64,23 @@
         </div>
         <div class="row">
           <div class="col-md-12">
-            <a href="#contact" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">MÁS INFORMACIÓN <i class="fas fa-chevron-right"></i></a>
+            <a href="#contact" class="btn btn-primary btn-lg active" style="margin-left: 1%; margin-right: 1%;" role="button" aria-pressed="true">MÁS INFORMACIÓN <i class="fas fa-chevron-right"></i></a>
+            <a href="#video" class="btn btn-primary btn-lg active" style="margin-left: 1%; margin-right: 1%;" data-toggle="modal" aria-pressed="true">VER PUBLICIDAD<i class="fas fa-chevron-right"></i></a>
           </div>
         </div>
+
+        <div class="modal fade" id="video" role="dialog" style="font-family:'Mulish', san-serif; text-align:center; font-size: large;color:white;">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content" style="background:black;">  
+                <div class="modal-body">
+                  <div class ="embed-responsive embed-responsive-4by3">
+                    <video class="embed-responsive-item" autoplay poster controls loop>
+                      <source src="http://www.paraguayinvest.com/img/video.mp4">
+                    </video>
+                  </div>
+                </div>                 
+              </div>
+          </div>
       </header>
 
     </div>
@@ -342,35 +356,18 @@
         <div class="col-md-12">
           <div class="box-1">
             <p>
-            <span>OFICINAS DE RESPRESENTACIÓN</span><br>
+            <span>OFICINAS DE REPRESENTACIÓN</span><br>
             <span id="offices">SÃO PAULO - BUENOS AIRES - SANTIAGO - MONTEVIDEO</span>
             </p>
           </div>
         </div>
       </div>
-        <!--
-        <div class="divider"></div>
-        <div class="col-md-4">
-          <div class="box-2">
-            <p>
-            <span>OFICINA BRASIL</span><br>
-            Rua Tabapuã 888 conj. 35/37<br>
-            CEP 04533-003<br>
-            Tel. +55 11 2389 5622<br>
-            São Paulo - SP – Brasil<br>
-            ernesto@paraguayinvest.com<br>
-            leonardo@paraguayinvest.com<br>
-            </p>
-          </div>
-          -->
+       
       <div class="row">
         <div class="col-12 social">
           <a href="https://www.linkedin.com/company/paraguay-invest-s-a-?trk=biz-companies-cym" target="_blank" title="Linkedin"><img src="./img/social/linkedin.png" alt="Linkedin"></a>
           <a href="https://www.facebook.com/pyinvest/" target="_blank" title="Facebook"><img src="./img/social/facebook.png" alt="Facebook"></a>
           <a href="https://www.instagram.com/paraguayinvest/" target="_blank" title="Instagram"><img src="./img/social/instagram.png" alt="Instagram"></a>
-          <!--
-          <a href="https://api.whatsapp.com/send?phone=59521600857&text=Hola..." target="_blank" title="Whatsapp"><img src="./img/social/whatsapp.png" alt="Whatsapp"></a>
-          -->
         </div>
       </div>
       <div class="row">
@@ -388,6 +385,22 @@
       </div>
     </div>
   </footer>
+
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close pb-3" data-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <video id="videoPI" title="ParaguayInvest" class="embed-responsive embed-responsive-16by9" controls>
+          <source src="http://www.paraguayinvest.com/img/pi.mp4" type="video/mp4">
+          Tu navegador no soporta los vídeos de HTML5
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
    
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -438,6 +451,21 @@ $(function() {
     setNavbarLinksColor();
   });
 
+  const $videoModal = $('#videoModal');
+
+  $videoModal.modal('show');
+
+  const videoPI = document.getElementById('videoPI');
+
+  $videoModal.on('shown.bs.modal', function(e) {
+    videoPI.muted = true;
+    videoPI.play();
+  });
+
+  $videoModal.on('hidden.bs.modal', function(e) {
+    videoPI.pause();
+  });
+
   const swiper = new Swiper('.swiper-container', {
     loop: true,
     autoplay: {
@@ -468,7 +496,7 @@ $(function() {
   });
 
   $("#pi-form").submit(function(e) {
-      e.preventDefault();
+    e.preventDefault();
   }).validate({
     rules: {
       name: {
