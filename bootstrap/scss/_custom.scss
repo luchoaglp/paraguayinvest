@@ -614,6 +614,15 @@ footer .copy p {
     box-shadow: 0 0 5px #333;
 }
 
+#videoModal .modal-footer button {
+    box-shadow: 0 0 2px #555;
+    border-radius: 0;
+    background-color: #2155c2;
+}
+#videoModal .modal-footer button i {
+    vertical-align: middle;
+}
+
 /* 1 */
 @include media-breakpoint-up(xs) {
 

@@ -398,6 +398,9 @@
           Tu navegador no soporta los vídeos de HTML5
         </video>
       </div>
+      <div class="modal-footer p-1">
+        <button type="button" id="videoPIvolume" class="btn btn-primary btn-lg btn-block py-1">Reproducir con volumen <i class="fas fa-volume-up"></i></button>
+      </div>
     </div>
   </div>
 </div>
@@ -464,6 +467,13 @@ $(function() {
 
   $videoModal.on('hidden.bs.modal', function(e) {
     videoPI.pause();
+  });
+
+  $('#videoPIvolume').click(function() {
+    videoPI.load();
+    videoPI.volume = 0.2;
+    videoPI.muted = false;
+    videoPI.play();
   });
 
   const swiper = new Swiper('.swiper-container', {
